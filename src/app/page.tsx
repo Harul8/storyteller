@@ -273,25 +273,25 @@ export default function Home() {
       {view === "input" && !showIntake && (
         <main className="flex flex-1 flex-col items-center justify-center px-5 py-12 bg-slate-50">
           <div className="max-w-6xl text-center">
-            <h2 className="text-6xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
+            <h2 className="text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
               Personal story telling coach for Virtusans
             </h2>
-            <p className="mt-3 text-slate-500">
-              Your CV already has the story — it's just buried under passive language and missing numbers. Bring it, tell us the role you're targeting, and your coach will find exactly what's holding you back, then run you through live practice on the questions that will actually come up.
-              
+            <div className="mt-3 text-slate-500">
+              Your CV already has the story — it&apos;s just buried under passive language and missing numbers. Bring it, tell us the role you&apos;re targeting, and your coach will find exactly what&apos;s holding you back, then run you through live practice on the questions that will actually come up.
+
               <br />
               <br />
               <strong>About Me</strong>
-              <br />             
+              <br />
               As an AI coach, I analyse your CV, identify potential discussion points and run live practice sessions on how you can present your story better.
               <br />
               <br />
             <div className="max-w-6xl text-left">
-              1. How to start — Bring your CV and the role you're targeting; no CV yet? You can also just start talking and ask anything.
-              <br />              
-              2. What happens — I will identify 5 to 10 potential discussion points worth working on for your background, ask real questions on each point, guide you on how to weave a strong story around them, validate your  responses and guide you further. 
-            </div> 
-            </p>
+              1. How to start — Bring your CV and the role you&apos;re targeting; no CV yet? You can also just start talking and ask anything.
+              <br />
+              2. What happens — I will identify 5 to 10 potential discussion points worth working on for your background, ask real questions on each point, guide you on how to weave a strong story around them, validate your responses and guide you further.
+            </div>
+            </div>
           </div>
           <button
             type="button"
@@ -309,8 +309,6 @@ export default function Home() {
             <h2 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
               Personal story telling coach for Virtusans
             </h2>
-            <p className="mt-3 text-slate-500">
-            </p>
           </div>
 
           {/* CV database dropdown */}
