@@ -29,8 +29,16 @@ If the message is not a practice answer at all (it's a question, or a brief ackn
 
 Return ONLY JSON: {"verdict":"strong"|"needs_work"|"not_an_answer","biggestWeakness":"<one sentence quoting their words; empty string if strong or not_an_answer>"}`;
 
+// "not_an_answer" is a real, meaningful verdict — not folded into null. It's
+// how the server finds out, reliably, that the candidate's last message was a
+// detour (a question, an aside) rather than an attempt — much more reliable
+// than asking the coach model to notice this about its OWN upcoming turn and
+// self-tag it (testing showed that self-tagging is missed for exactly the
+// quick, conversational-feeling detours where it matters most). null now
+// means only "the gate itself produced nothing usable this turn" — a genuine
+// API failure, or too short to be worth grading.
 interface QualityVerdict {
-  verdict: "strong" | "needs_work";
+  verdict: "strong" | "needs_work" | "not_an_answer";
   weakness: string;
 }
 
@@ -63,7 +71,9 @@ async function assessAnswerQuality(
       verdict?: unknown;
       biggestWeakness?: unknown;
     };
-    if (parsed.verdict !== "strong" && parsed.verdict !== "needs_work") return null;
+    if (parsed.verdict !== "strong" && parsed.verdict !== "needs_work" && parsed.verdict !== "not_an_answer") {
+      return null;
+    }
     return {
       verdict: parsed.verdict,
       weakness: typeof parsed.biggestWeakness === "string" ? parsed.biggestWeakness : "",
@@ -94,18 +104,49 @@ function extractTopicTag(content: string): string | null {
   return match ? match[1].trim().toLowerCase() : null;
 }
 
-function parseTag(tag: string): { theme: string; question: string } {
+// A trailing "::deviation" on the question part marks a turn where the coach
+// handled an off-flow detour and re-asked the SAME pending question — see the
+// deviation-handling instruction in COACHING_PERSONA. It doesn't consume an
+// attempt: no answer was actually graded on that turn, only a tangent. Without
+// stripping it out, that turn still counts toward the SAME theme::question run
+// (so continuity tracking is unaffected), but is excluded from the attempt
+// tally in countConsecutiveSameTopic below.
+const DEVIATION_MARKER = "::deviation";
+
+function parseTag(tag: string): { theme: string; question: string; isDeviationReask: boolean } {
   const idx = tag.indexOf("::");
-  if (idx === -1) return { theme: tag, question: tag };
-  return { theme: tag.slice(0, idx).trim(), question: tag.slice(idx + 2).trim() };
+  if (idx === -1) return { theme: tag, question: tag, isDeviationReask: false };
+  const theme = tag.slice(0, idx).trim();
+  let question = tag.slice(idx + 2).trim();
+  let isDeviationReask = false;
+  if (question.endsWith(DEVIATION_MARKER)) {
+    question = question.slice(0, -DEVIATION_MARKER.length).trim();
+    isDeviationReask = true;
+  }
+  return { theme, question, isDeviationReask };
 }
 
+/**
+ * Counts real attempts at the CURRENT question — not raw consecutive same-tag
+ * turns. A deviation-handling re-ask shares the theme+question with the turn
+ * before it (by design, for continuity) but must not inflate the attempt
+ * count, or a candidate's genuine first attempt right after a detour gets
+ * mistaken for their second and skips straight past real feedback to a
+ * fabricated model answer — an observed failure mode in testing.
+ */
 function countConsecutiveSameTopic(messages: { role: string; content: string }[]): number {
   const tags = messages.filter((m) => m.role === "assistant").map((m) => extractTopicTag(m.content));
   const lastTag = tags[tags.length - 1];
   if (!lastTag) return 0;
+  const { theme: currentTheme, question: currentQuestion } = parseTag(lastTag);
   let count = 0;
-  for (let i = tags.length - 1; i >= 0 && tags[i] === lastTag; i--) count++;
+  for (let i = tags.length - 1; i >= 0; i--) {
+    const tag = tags[i];
+    if (!tag) break;
+    const parsed = parseTag(tag);
+    if (parsed.theme !== currentTheme || parsed.question !== currentQuestion) break;
+    if (!parsed.isDeviationReask) count++;
+  }
   return count;
 }
 
@@ -153,12 +194,25 @@ function closingPitchWasAsked(messages: { role: string; content: string }[]): bo
   return theme === CLOSING_PITCH_THEME && question === CLOSING_PITCH_THEME;
 }
 
+/** Ordered, deduped theme names as first visited — last entry is the current theme. */
+function getVisitedThemesInOrder(messages: { role: string; content: string }[]): string[] {
+  const tags = messages.filter((m) => m.role === "assistant").map((m) => extractTopicTag(m.content));
+  const seen: string[] = [];
+  for (const tag of tags) {
+    if (!tag) continue;
+    const { theme } = parseTag(tag);
+    if (!seen.includes(theme)) seen.push(theme);
+  }
+  return seen;
+}
+
 function buildCvReminder(
   analysis: Analysis,
   questionAttemptCount: number,
   questionsInTheme: number,
   isClosingPitch: boolean,
   closingPitchAsked: boolean,
+  visitedThemes: string[],
   quality: QualityVerdict | null,
 ): string {
   const projects = analysis.projectTips?.map((p) => p.project).filter(Boolean) ?? [];
@@ -182,6 +236,33 @@ function buildCvReminder(
     `If they just gave an answer, draw out what THEY noticed before your own verdict — and word that fresh, not an opener you've already used this session. One genuine question at most; phrase redos as commands.`,
   );
   lines.push(`End with the hidden [TOPIC: <theme>::<question>] tag.`);
+
+  // Structural fact, independent of the quality gate below: which themes are
+  // already behind you. This must hold even on a turn where the quality gate
+  // returns nothing usable (dropped call, ambiguous grade) — without it, a
+  // turn with no quality verdict has no signal at all about where to go next,
+  // and testing found the model wandering back into an already-finished
+  // theme in exactly that gap.
+  const currentTheme = visitedThemes[visitedThemes.length - 1];
+  const priorThemes = visitedThemes.slice(0, -1);
+  if (priorThemes.length > 0) {
+    lines.push(
+      `Themes already covered this session, in order — never return to any of these: ${priorThemes.join(", ")}. You are currently on "${currentTheme}".`,
+    );
+  }
+
+  // The gate reliably recognizes a detour (a question, an aside, anything
+  // that isn't an attempt at the pending question) — far more reliably than
+  // asking the coach to notice this about its own upcoming turn and self-tag
+  // it, which testing showed gets missed for exactly the quick,
+  // conversational-feeling detours where it matters most. So the server
+  // tells it directly, every time, rather than leaving it to be noticed.
+  if (quality && quality.verdict === "not_an_answer") {
+    lines.push(
+      `QUALITY GATE — their last message was NOT an attempt at the pending question (it reads like a detour: a question, an aside, something off to the side). Handle it exactly per HOW YOU RUN THE SESSION in your persona: respond to it for real, then return to the still-pending question. Do not treat this as an attempt and do not advance — the question is still open. End your tag with "::deviation" appended on this one turn only, exactly [TOPIC: ${currentTheme}::<question>::deviation], keeping the theme and question parts exactly as they were.`,
+    );
+    return lines.join("\n");
+  }
 
   // The closing phase (final cross-cutting round + the one consolidated pitch)
   // shares the reserved "closing-pitch" theme tag. The session may only end
@@ -220,6 +301,13 @@ function buildCvReminder(
       lines.push(
         `QUALITY GATE — it needs exactly one real fix — ${quality.weakness} Coach that one thing, quoting their own words, and end with a redo of just that — this is their one redo at this exact question, so keep your [TOPIC] tag completely unchanged.`,
       );
+    } else {
+      // No usable verdict this turn (dropped call, ambiguous grade) — the
+      // phase must still progress correctly rather than stalling, or worse,
+      // the session never actually closing.
+      lines.push(
+        `No independent quality read on their last answer this turn — use your own judgment on whether it needs a fix, the same way the persona describes (quote their real words if you name a weakness; never invent one if it looks solid). Regardless of that judgment, the phase must still move correctly: ${continueInstruction}${sessionCloseNote}`,
+      );
     }
     return lines.join("\n");
   }
@@ -241,12 +329,25 @@ function buildCvReminder(
   //   generating a fourth, fifth, etc. question under the same theme tag for
   //   as long as answers kept passing. Three is the hard cap; only a code-
   //   enforced instruction (not prose alone) held it in testing.
+  //
+  // Whether "move on" means "next agenda theme" or "closing phase" is itself a
+  // fact the model was left to track by eye against the agenda list it only
+  // saw once, at the very top of a long system prompt — testing found it
+  // invented an extra, off-agenda theme instead of transitioning to
+  // closing-pitch once the real agenda was actually exhausted. visitedThemes
+  // already counts distinct themes mechanically, so comparing that count
+  // against the agenda length removes the guesswork the same way the
+  // already-covered-themes list above does.
+  const isLastAgendaTheme = visitedThemes.length >= (analysis.coachingPriorities?.length ?? 0);
+  const moveOnInstruction = isLastAgendaTheme
+    ? `Every theme on your agenda has now been covered — do NOT open another agenda theme. Move straight into the closing phase instead: your next [TOPIC] tag must use the reserved theme "closing-pitch" (e.g. [TOPIC: closing-pitch::<question-slug>]), asking either a cross-cutting question or, if you're ready, the consolidated closing pitch itself.`
+    : `Move to the next theme on your agenda now, and start a genuinely new [TOPIC] tag with a new theme part.`;
   const advanceInstruction =
     questionsInTheme < 2
-      ? `This theme has only had ${questionsInTheme} question so far, and it needs at least one more before you're allowed to move to a new theme — ask the OTHER kind now (a business-level technical question if you've asked general so far, a general question if you've asked technical). Keep the THEME part of your [TOPIC] tag identical, only change the question part after "::".`
+      ? `This theme has only had ${questionsInTheme} question so far, and it needs at least one more before you're allowed to move on — ask the OTHER kind now (a business-level technical question if you've asked general so far, a general question if you've asked technical). Keep the THEME part of your [TOPIC] tag identical, only change the question part after "::".`
       : questionsInTheme >= 3
-        ? `This theme has now had ${questionsInTheme} questions — that is the ceiling. Do NOT ask another question in this theme under any circumstances. Move to the next theme on your agenda now (or, if every theme is done, to the final cross-theme round, or the closing pitch if the final round is done too — see your session agenda), and start a genuinely new [TOPIC] tag with a new theme part.`
-        : `This theme has had its minimum two questions — you may add one more third question ONLY if there is real, undiscussed ground left, otherwise move straight to the next theme on your agenda now. Either way, update your [TOPIC] tag (same theme part with a new question part for a third question here, or a whole new tag for a new theme).`;
+        ? `This theme has now had ${questionsInTheme} questions — that is the ceiling. Do NOT ask another question in this theme under any circumstances. ${moveOnInstruction}`
+        : `This theme has had its minimum two questions — you may add one more third question ONLY if there is real, undiscussed ground left, otherwise: ${moveOnInstruction}`;
 
   if (quality && quality.verdict === "strong") {
     lines.push(
@@ -259,6 +360,21 @@ function buildCvReminder(
   } else if (quality && quality.verdict === "needs_work") {
     lines.push(
       `QUALITY GATE — an independent check of their last answer: it needs exactly one real fix — ${quality.weakness} Coach that one thing, quoting their own words, and end with a redo of just that — this is their one redo at this exact question, so keep your [TOPIC] tag completely unchanged. Don't pile on other points, and don't invent additional weaknesses beyond this one.`,
+    );
+  } else if (questionAttemptCount >= 2) {
+    // No usable verdict this turn, but the attempt cap is tracked mechanically
+    // and holds regardless — never let a missing grade turn into a third try.
+    lines.push(
+      `No independent quality read on their last answer this turn, but this is already their SECOND attempt at this exact question — that's the cap regardless of the missing verdict. Use your own judgment: if it's solid, say what specifically made it land; if it still has a real gap, name it honestly in their own words and give them a real, complete model answer. Either way this question is resolved now — do NOT ask for a third attempt. ${advanceInstruction}`,
+    );
+  } else {
+    // No usable verdict this turn (dropped call, ambiguous grade) — this is
+    // exactly the gap where testing found the model skipping a redo entirely
+    // and wandering into an already-finished theme instead. The structural
+    // guardrail above (themes already covered) prevents the second half of
+    // that; this gives the model an honest, bounded choice for the first.
+    lines.push(
+      `No independent quality read on their last answer this turn — use your own judgment on whether it needs a fix, the same way the persona describes (quote their real words if you name a weakness; never invent one if it looks solid). If you judge it solid, treat this question as resolved: ${advanceInstruction} If it needs a real fix, name that one gap in their own words and ask for a redo of just that — their one redo at this exact question — keeping your [TOPIC] tag completely unchanged.`,
     );
   }
 
@@ -321,6 +437,7 @@ export async function POST(req: Request) {
     const questionsInTheme = countDistinctQuestionsInCurrentTheme(messages);
     const isClosingPitch = isClosingPitchTurn(messages);
     const closingPitchAsked = closingPitchWasAsked(messages);
+    const visitedThemes = getVisitedThemesInOrder(messages);
     const quality = await assessAnswerQuality(messages);
     const reminder = buildCvReminder(
       body.analysis!,
@@ -328,6 +445,7 @@ export async function POST(req: Request) {
       questionsInTheme,
       isClosingPitch,
       closingPitchAsked,
+      visitedThemes,
       quality,
     );
     messages[lastIdx] = {
