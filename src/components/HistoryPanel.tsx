@@ -218,12 +218,15 @@ export default function HistoryPanel({ onResume }: Props) {
                   <div className="min-w-0 flex-1">
                     <div className="flex flex-wrap items-center gap-2">
                       <span className="text-sm font-semibold text-slate-900">
-                        {entry.analysis.detectedRole}
+                        {entry.analysis.candidateName || entry.analysis.detectedRole}
                       </span>
                       <span className="rounded-full bg-indigo-50 px-2 py-0.5 text-xs font-medium text-indigo-700">
                         {entry.analysis.seniority}
                       </span>
                     </div>
+                    <p className="mt-1 truncate text-xs text-slate-500">
+                      Current role: {entry.analysis.detectedRole}
+                    </p>
                     {entry.targetRole && (
                       <p className="mt-1 truncate text-xs text-slate-500">
                         Targeting: {entry.targetRole}
@@ -522,14 +525,14 @@ function SessionViewer({
   onDelete: (id: string) => void;
 }) {
   return (
-    <div className="mx-auto flex w-full max-w-3xl flex-col px-5 py-6">
-      <div className="mb-5 flex items-start justify-between gap-4">
-        <div>
+    <div className="mx-auto flex w-full max-w-6xl flex-col px-5 py-6">
+      <div className="mb-5 flex flex-wrap items-start justify-between gap-4">
+        <div className="min-w-0">
           <button onClick={onBack} className="mb-2 flex items-center gap-1 text-xs text-slate-400 hover:text-slate-600">
             <ChevronLeftIcon className="h-3 w-3" /> Back to history
           </button>
           {entry.analysis.candidateName && (
-            <h2 className="text-base font-bold text-slate-900">{entry.analysis.candidateName}</h2>
+            <h2 className="text-2xl font-bold text-slate-900 sm:whitespace-nowrap sm:text-[clamp(1.75rem,3.2vw,4.5rem)]">{entry.analysis.candidateName}</h2>
           )}
           <p className={entry.analysis.candidateName ? "text-sm text-slate-500" : "text-base font-semibold text-slate-900"}>
             {entry.analysis.detectedRole}

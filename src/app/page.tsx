@@ -12,7 +12,6 @@ import {
   generateSessionId,
   type HistoryEntry,
 } from "@/lib/history";
-import { SAMPLE_PROFILES } from "@/lib/sample-cvs";
 import type { Analysis, ChatMessage } from "@/lib/types";
 
 type View = "input" | "coaching" | "chat" | "history";
@@ -304,56 +303,22 @@ export default function Home() {
       )}
 
       {view === "input" && showIntake && (
-        <main className="flex flex-1 flex-col items-center justify-center px-5 py-12 bg-slate-50">
-          <div className="mb-8 max-w-2xl text-center">
-            <h2 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
+        <main className="flex flex-1 flex-col items-center justify-center px-3 py-4 bg-slate-50">
+          <div className="mb-4 w-full text-center">
+            <h2 className="text-[0.75rem] font-semibold tracking-tight text-slate-900 sm:whitespace-nowrap sm:text-[clamp(1.25rem,2.35vw,3.5rem)]">
               Personal story telling coach for Virtusans
             </h2>
           </div>
 
-          {/* CV database dropdown */}
-          <div className="mb-5 w-full max-w-2xl">
-            <label className="mb-2 block text-center text-xs text-slate-400 font-medium uppercase tracking-wide">
-              Or select a CV from the database
-            </label>
-            <select
-              disabled={analyzing}
-              defaultValue=""
-              onChange={(e) => {
-                const profile = SAMPLE_PROFILES.find((p) => p.id === e.target.value);
-                if (profile) analyze({ text: profile.cvText, targetRole: profile.targetRole });
-                e.target.value = "";
-              }}
-              className="w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-700 outline-none focus:border-indigo-300 focus:ring-2 focus:ring-indigo-100 disabled:opacity-40"
-            >
-              <option value="" disabled>
-                Choose a profile — coaching starts immediately…
-              </option>
-              {SAMPLE_PROFILES.map((p) => (
-                <option key={p.id} value={p.id}>
-                  {p.label}
-                </option>
-              ))}
-            </select>
-          </div>
-
           <CvInput
             onAnalyze={analyze}
+            onStartWithoutCv={startGeneralChat}
             analyzing={analyzing}
             error={error}
             provider={provider}
             model={model}
             onModelChange={onModelChange}
           />
-
-          <button
-            type="button"
-            onClick={startGeneralChat}
-            disabled={analyzing}
-            className="mt-6 text-xs text-slate-400 underline decoration-dotted underline-offset-2 hover:text-indigo-600 disabled:opacity-40"
-          >
-            Don&apos;t have a CV ready? Skip and just ask your coach something
-          </button>
         </main>
       )}
 
