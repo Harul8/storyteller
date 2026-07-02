@@ -272,14 +272,25 @@ export default function Home() {
 
       {view === "input" && !showIntake && (
         <main className="flex flex-1 flex-col items-center justify-center px-5 py-12 bg-slate-50">
-          <div className="max-w-2xl text-center">
-            <h2 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
-              Your personal interview coach for IT professionals
+          <div className="max-w-6xl text-center">
+            <h2 className="text-6xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
+              Personal story telling coach for Virtusans
             </h2>
             <p className="mt-3 text-slate-500">
-              Upload your CV, tell us the role you are targeting, and your coach will immediately
-              assess your profile and run you through a live practice session on every question
-              an interviewer will ask.
+              Your CV already has the story — it's just buried under passive language and missing numbers. Bring it, tell us the role you're targeting, and your coach will find exactly what's holding you back, then run you through live practice on the questions that will actually come up.
+              
+              <br />
+              <br />
+              <strong>About Me</strong>
+              <br />             
+              As an AI coach, I analyse your CV, identify potential discussion points and run live practice sessions on how you can present your story better.
+              <br />
+              <br />
+            <div className="max-w-6xl text-left">
+              1. How to start — Bring your CV and the role you're targeting; no CV yet? You can also just start talking and ask anything.
+              <br />              
+              2. What happens — I will identify 5 to 10 potential discussion points worth working on for your background, ask real questions on each point, guide you on how to weave a strong story around them, validate your  responses and guide you further. 
+            </div> 
             </p>
           </div>
           <button
@@ -296,12 +307,9 @@ export default function Home() {
         <main className="flex flex-1 flex-col items-center justify-center px-5 py-12 bg-slate-50">
           <div className="mb-8 max-w-2xl text-center">
             <h2 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
-              Your personal interview coach for IT professionals
+              Personal story telling coach for Virtusans
             </h2>
             <p className="mt-3 text-slate-500">
-              Upload your CV, tell us the role you are targeting, and your coach will immediately
-              assess your profile and run you through a live practice session on every question
-              an interviewer will ask.
             </p>
           </div>
 
