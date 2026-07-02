@@ -1,0 +1,90 @@
+JANANI WANIGASURIYA | Senior Consultant - QA | Virtusa Corporation
+7+ years of experience driving software quality in ERP and Insurance domains.
+Expertise in manual test strategy, comprehensive QA analysis, team leadership, and people management.
+Bridges gap between technical teams and business stakeholders.
+
+Core Competencies: End to End Test Strategy & Test Planning, Test Architecture & Comprehensive Test
+Execution, Agile / Scrum Methodologies, Strategic Planning & Analytical Problem Solving,
+Team Leadership & Resource Management
+
+Tools & Technologies: TFS, Azure DevOps, Selenium, Java, SQL, Salesforce, Eclipse, IntelliJ IDEA
+
+───────────────────────────────────────────────────────────────────────────
+VIRTUSA CORPORATION (Aug 2019 – May 2026)
+───────────────────────────────────────────────────────────────────────────
+
+EAG RFS Revamp (Feb 2025 – May 2026) | QA Lead | Manual Testing
+Description: NextGen RFS (Request for Service) revamp programme under EAG account
+- QA Lead for NextGenRFS
+- Created and developed the comprehensive testing strategy
+- Designed the complete testing plan
+- Managed team leadership, execution, defect triage, and reporting
+- Implemented process improvements
+
+EAG Bright & EAG ITMagination Migration (Aug 2024 – Jan 2025) | QA Lead | Manual Testing
+Description: SFDC CTB section and Bright/ITMagination migration QA under EAG account
+- Performed the QA Lead role for SFDC CTB section and Bright and ITM Migration QA
+- Contributed to the develop the testing strategy
+- Team Management and Leadership
+- Designed the whole testing plan
+- Execution, Triage, and Reporting
+
+EAG Sales & Delivery Enablement PL – SFDC CTB (Apr 2023 – Apr 2024) | QA Lead | Manual Testing
+Description: SFDC (Salesforce) domain, Change the Business section under EAG account
+- Performed the QA Lead role for SFDC CTB Project
+- Contributed to the develop the testing strategy
+- Designed whole testing plan
+- Conducted defect triage meetings to ensure quality of deliverables
+
+EAG Tech Org Transformation (Jan 2023 – Mar 2023) | Senior QA Engineer | Manual Testing
+Description: Resource Management domain under EAG account
+- Performed Senior QA role in the Project
+- Contributed to the develop the testing strategy
+- Designed whole testing plan
+- Team Management and Leadership
+- Conducted defect triage meetings to ensure quality of deliverable
+
+EAG Internal Job Portal "Pathfinder" / Evolve (Jul 2022 – Dec 2022) | Senior QA Engineer
+Technology: Functional Testing, API Testing
+Description: Pathfinder (Evolve) under Resource Management domain, EAG account
+- Performed Senior QA role in a Project
+- Contributed to the develop the testing strategy
+- Designed whole testing plan
+- Team Management and Leadership
+- Conducted defect triage meetings to ensure quality of deliverables
+
+EAG Delivery & Billing PL (Oct 2021 – Jun 2022) | QA Engineer | Manual Testing
+Description: Resource Management domain under EAG account
+- Adopted Agile methodologies, ensuring tasks were completed accurately within given timeframes
+- Participated in defect triage meetings to ensure quality
+
+EAG Fusion ERP (Aug 2019 – Sep 2021) | QA Engineer | Manual Testing
+Description: Resource Management domain under EAG account
+- Responsible QA person for JSCORE and SFDC to RM Integration
+- Developed test designs for JSCORE, RM functionalities, and related reports
+- Executed test scenarios, tracked defects, and successfully managed test data
+
+───────────────────────────────────────────────────────────────────────────
+EPIC LANKA PVT. LTD (Oct 2017 – Apr 2018)
+───────────────────────────────────────────────────────────────────────────
+
+Role: Trainer / Software Quality Assurance Engineer
+Technology: Selenium, TestNG, Java
+Description: Manual testing and Automation testing for insurance portal
+- Executed Manual and Automation testing utilizing Selenium, TestNG, and Java
+
+───────────────────────────────────────────────────────────────────────────
+EDUCATION
+───────────────────────────────────────────────────────────────────────────
+BSc (Hons) in Information Technology & Management — University of Moratuwa, 2019
+Master of Business Administration (General) — University of Bedfordshire, 2022
+
+───────────────────────────────────────────────────────────────────────────
+CERTIFICATIONS & ACHIEVEMENTS
+───────────────────────────────────────────────────────────────────────────
+ISTQB Foundation Level — International Software Testing Qualifications Board, 2019
+Certified Virtusa Scrum Master
+Diploma in Strategic Brand Management — Sri Lanka Institute of Marketing, 2018
+Certificate of QA Test Automation — Imperial College of Information Technology and Business, 2023
+Certified Scrum Master — Scrum Alliance, Jun 2023 – Jun 2025
+Career Essentials in Generative AI — Microsoft and LinkedIn, 2023

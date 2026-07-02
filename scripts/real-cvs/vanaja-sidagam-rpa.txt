@@ -1,0 +1,91 @@
+VANAJA SIDAGAM | Software Engineer – RPA Application Support | Virtusa Corporation
++91 9493743833 | vanajasidagam@virtusa.com
+6+ years specialising in Robotic Process Automation (RPA) production support.
+Expertise: Incident/Problem/Change Management, bot stability, root cause analysis, COB/DR exercises,
+KB documentation, cross-functional coordination with Dev/Infra/Ops teams.
+
+Core Competencies:
+- RPA Bot Support & Maintenance
+- Incident, Problem, and Change Management
+- Business Process Optimization
+- Root Cause Analysis & Log Investigation
+- Control Room Administration (Bot Scheduling, Roles, Credential Management)
+- Monitoring & Alert Handling using ITS & Autosys
+- Cross-Functional Coordination with Development, Infrastructure, and Operations Teams
+- Knowledge Base (KB/KEDB) Documentation
+
+Tools & Technologies:
+Automation Anywhere, Talend, Xceptor, Infinity, Celonis, Appian, Appzillon,
+Autosys, Oracle, MySQL, Linux, ServiceNow, Agile, Tectia, UDeploy, Harness, ITRS Geneos, SoapUI
+
+Education: BTech – Computer Science & Engineering, Aditya Engineering College, Surampalem University (2013–2017)
+Certification: Azure Data Fundamentals (2020)
+
+───────────────────────────────────────────────────────────────────────────
+VIRTUSA CORPORATION
+───────────────────────────────────────────────────────────────────────────
+
+Project: RPA Production Support – Citi Bank (Banking, Markets & Services Domain)
+Duration: Aug 2024 – Present
+Role: Software Engineer
+Technology: Automation Anywhere, ServiceNow, UCD, ITRS, Harness, Tectia, Xceptor, Celonis, Infinity, Appian, Appzillon, Talend, SQL, Unix
+
+Description: RPA support team for Citi Bank in the Banking, Markets, and Services domain. Ensuring bot
+stability, ITS monitoring, resolving incidents, coordinating infrastructure changes, conducting COB
+activities, validating new process documents during KT calls, and creating KB documentation.
+
+INCIDENT MANAGEMENT:
+- Investigated and resolved Automation Anywhere BOT incidents by analyzing logs, configurations, and runtime data
+- Collaborated with L3 and SME teams for escalated issue resolution, ensuring minimal downtime and SLA adherence
+- Maintained production stability and ensured seamless bot operations across critical RPA processes
+
+PROBLEM MANAGEMENT:
+- Identified root causes of recurring issues and implemented preventive measures to enhance long-term stability
+- Participated in RCA reviews and contributed to permanent fixes, improving knowledge repository and process efficiency
+
+INFRASTRUCTURE MANAGEMENT:
+- Coordinated with development and operations teams for code releases, infrastructure upgrades, and patch management
+- Performed pre- and post-deployment checks and weekend sanity testing to ensure smooth rollouts and system integrity
+
+CHANGE & RELEASE MANAGEMENT:
+- Reviewed change requests, obtained approvals, and ensured successful production deployments with zero disruption
+- Conducted system health checks post-release and prepared KT sign-off documentation for each implemented change
+
+SERVICE MANAGEMENT:
+- Created and maintained Knowledge Base (KB) and Known Error Database (KEDB) documentation
+- Participated in KT sessions to validate new process documents and align updates with support protocols
+- Monitored bot performance and job executions through ITRS and Autosys, ensuring process reliability and timely alerts
+
+COB (CONTINUITY OF BUSINESS) MANAGEMENT:
+- Executed sanity checks and validations during COB and Pre-Test Execution (PTE) exercises
+- Ensured successful Health Check (HC) validations and verified system readiness during Disaster Recovery (DR) drills
+
+───────────────────────────────────────────────────────────────────────────
+
+Project: ICG-CPB Production Support – Citi Private Bank
+Role: Engineer
+Technology: ServiceNow, Autosys, ITRS, Oracle, SQL, Unix, SoapUI
+
+Description: Production support for Citi Private Bank — monitoring via ServiceNow, batch scheduling
+via Autosys, ITRS Geneos monitoring for CPB applications, sanity health checks, and ad-hoc requests.
+
+Responsibilities:
+- Monitored emails and created/acknowledged incidents via ServiceNow
+- Monitored batch scheduling jobs via Autosys and ITRS Geneos for CPB applications
+- Performed application sanity health checks for all apps
+- Handled ad-hoc requests
+
+───────────────────────────────────────────────────────────────────────────
+
+Project: ICG-CPB Production Support – Citi Private Bank, SMF-Service Health
+Role: Software Engineer
+Technology: ServiceNow, Microsoft Excel, PowerPoint
+
+Description: Supported all CGW applications for Production Readiness Assessment (PRA) under the
+Service Management Framework (SMF), ensuring products/services are ready to move from project
+to run environment.
+
+Responsibilities:
+- Gathered PSM details for each PTS ID and its multiple impacted applications
+- Scheduled calls to identify and review risk logs
+- Generated weekly reports based on CHG data from ServiceNow

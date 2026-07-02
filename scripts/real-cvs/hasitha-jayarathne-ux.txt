@@ -1,0 +1,109 @@
+HASITHA MADHUSHAN JAYARATHNE | Senior Consultant – UX Designer | Virtusa Corporation
+8+ years in UX Design and User Research across Customer Experience Management, Telco, Banking, Insurance, and Retail.
+Expertise: User research, user journey mapping, wireframes, visual design, prototyping, Agile UX sprint planning, design systems.
+
+Tools: Figma, Sketch, InvisionApp, Adobe Photoshop, Mural, Miro, UXPressia, ServiceNow, Usertesting.com, Zeplin, JIRA, WordPress
+
+Education: BSc (Hons) Software Engineering, Second Class Upper Division — University of Plymouth (UK), 2017
+
+───────────────────────────────────────────────────────────────────────────
+PROJECTS AT VIRTUSA
+───────────────────────────────────────────────────────────────────────────
+
+Verint Engineering & IT Services (May 2023 – Jan 2026)
+Role: Senior Consultant UX | Domain: Customer Experience and Workforce Management
+Technology: Figma, Zeplin
+Description: Workforce management system designs, Verint design system design, appointment booking and queue management new feature designing and rebranding
+Responsibilities:
+- Lead on responsive design guidelines for the new LUX 2.0 design system
+- Redesign appointment booking and queue management features to comply with new Verint design system
+- Migrate Zeplin screens to Figma
+- Research on design systems for inspirations
+- Add multi-guest attending feature to existing appointment booking flow
+
+Hitachi – OIA Licence & Implementation (Feb 2023 – Mar 2023)
+Role: Lead Designer | Domain: Pharma | Technology: Figma, Miro
+Description: Revamping the current website
+Responsibilities:
+- Join collaboration sessions with lead designers and sales team to define scope
+- Plan questionnaires
+- Prepare proposal presentation for UX
+- Identify AS-IS journeys
+- Competitor analysis
+
+BT Capacity Management (Oct 2022 – Nov 2022)
+Role: Lead Designer | Domain: Telco | Technology: Figma, Miro
+Description: Designing new feature for enterprise management portal — high utilisation alerts and BT recommendations
+Responsibilities:
+- Join collaboration sessions with BAs and define scope
+- Sprint planning
+- Review wireframes/visuals designed by UX designers
+- Connect with developers to review developed designs
+- Demo sprint work to stakeholder
+
+BT GS Non-Javelin (Apr 2021 – Sep 2022)
+Role: Experience Designer | Domain: Telco | Technology: Figma, Mural, Usertesting.com
+Description: Customer portal and agent workspace to bring incident management 90% digital via ServiceNow. Customers raise and track cases via portal; agents work on ServiceNow.
+Responsibilities:
+- Join user interview sessions and take notes/insights
+- Analyse user insights and create themes
+- Design customer portal wireframes/visuals
+- Create prototype using Figma
+- Submit requirements for ServiceNow developers
+- Create user journey maps in UXPressia
+- ServiceNow feasibility analysis
+- UAT and usability testing via Usertesting.com
+- Connect with developers to review developed designs
+- Demo sprint work to stakeholders
+- Sprint planning / Quarter planning
+
+GS Portal – My Service (Feb 2021 – Mar 2021)
+Role: UX Designer | Domain: Telco | Technology: Sketch, InvisionApp
+Description: App register facility in DCF for helpdesk admins to add/update application, product, and family details. Applying latest design system.
+Responsibilities:
+- Collaborate with BAs for requirements gathering
+- Design wireframes and visuals; create prototype; demo to stakeholders
+
+BT – My Account UX (Jun 2020 – Feb 2021)
+Role: UX Designer | Domain: Telco | Technology: Sketch, InvisionApp, Miro
+
+BT Enterprise Portal Engineering (Apr 2020 – May 2020)
+Role: UX Designer | Domain: Telco | Technology: Sketch, InvisionApp
+Description: Uplifting Enterprise Portal with incident and service request raising via portal
+Responsibilities:
+- Join user interview sessions, analyse insights, create themes and persona
+- Create user journey maps; design wireframes, visuals, and InvisionApp prototype
+- Conduct usability testing; connect with developers; demo to stakeholders
+
+BT Enterprise Portal Phase 2/3 (Jul 2019 – Apr 2020)
+Role: UX Designer | Domain: Telco | Technology: Sketch, InvisionApp, Miro
+Description: Continuing Enterprise Portal uplift for helpdesk users and customers. More features introduced.
+Responsibilities:
+- Collaborate with BAs; design wireframes, visuals, and prototype; review with developers; demo to stakeholders
+
+BT Enterprise Portal (Mar 2019 – Jun 2019)
+Role: UX Designer | Domain: Telco | Technology: Sketch, InvisionApp
+Description: Uplifting My Account dashboard with application widgets (add/remove, favorites)
+Responsibilities:
+- Collaborate with BAs; design wireframes, visuals, and prototype; review with developers; demo to stakeholders
+
+Brandix Shop Floor Control System (Sep 2018 – Feb 2019)
+Role: UX Designer | Domain: Apparel | Technology: Sketch, InvisionApp, Miro
+Description: Designing Shop Floor Control System for warehousing, cutting, sewing, packaging, and delivery workflows
+Responsibilities:
+- Join user interview sessions; analyse insights, create themes, persona, and user journey maps
+- Design wireframes, visuals, and InvisionApp prototype; conduct usability testing
+
+CSG MTN Steady L3/Dev (Mar 2018 – Apr 2018)
+Role: UX Designer | Domain: Telco | Technology: Sketch, InvisionApp
+Description: Dashboard integrating all MTN solutions + Customer Care support portal dashboard
+Responsibilities:
+- Join user interviews; create journey maps; design wireframes, visuals, and prototype; demo to stakeholders
+
+Digital Lab (Aug 2017 – Mar 2018)
+Role: Associate UX Designer | Domain: Digital | Technology: Sketch, InvisionApp, WordPress
+Description: Next-gen mobile solutions for banking, finance, healthcare, marketing, retail, services, telecom using AI and big data
+Responsibilities:
+- Join user interviews; design wireframes, visuals, and InvisionApp prototypes
+- Submit requirements to developers; review developed designs; demo to stakeholders
+- Manage WordPress website for digital team

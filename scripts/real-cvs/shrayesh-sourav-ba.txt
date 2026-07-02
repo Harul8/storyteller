@@ -1,0 +1,96 @@
+SHRAYESH SOURAV | Lead Consultant (Business Analyst)
+
+Result-oriented Business Analyst with 15+ years of experience in Banking Financial Services (BFS),
+specializing in Customer Onboarding, KYC/AML compliance, Mortgage Lending, Digital Transformation,
+and Agile Delivery. Experienced in translating business needs into functional requirements, leading UAT
+programs, managing product backlogs, and driving enterprise banking transformation initiatives. Certified
+SAFe Agilist, SAFe PO/PM, Pega CSA, and CPBA with proven success across leading UAE, Swedish, US,
+and UK banking organizations.
+
+Core Competency:
+- Banking & Financial Services (BFS)
+- Customer Onboarding
+- KYC/AML Compliance
+- Mortgage Lending
+- Digital Transformation
+- Agile Methodologies
+- Business Analysis & Requirement Engineering
+- UAT Management
+- Product Backlog Management
+
+Tools and Technologies: Agile, SAFe, Pega, UAT
+
+Relevant Industry Experiences:
+- Led requirement gathering workshops for digital onboarding journeys and KYC/AML transformation initiatives for a top UAE bank
+- Partnered with Product Owners to manage product backlogs, sprint priorities, and release planning in Agile environments
+- Led UAT execution, business sanity validation, and production go-live support for major banking transformation programs
+- Drove mortgage product integration initiatives within core banking platforms
+- Performed business requirement analysis for banking migration and transformation programs across US and UK banks, including leading end-to-end testing and UAT coordination
+
+Educational Qualifications: Bachelor of Engineering (Mechanical), RGPV, Bhopal
+
+Achievements & Certifications:
+- Successfully managed end-to-end requirement-to-delivery lifecycle for a leading UAE bank's digital transformation initiative
+- Received multiple client appreciations for leading UAT teams and delivering quality releases under challenging timelines
+- Worked onsite with a leading Swedish bank and received client recognition for delivery excellence
+- Recognized for defect management, quality leadership, and process improvement initiatives
+- Awarded 'High Flyer of the Month' twice in Banking & Financial Services Open House
+- Lead SAFe 5.2 Agilist
+- SAFe 5.2 PO/PM
+- Pega Certified System Architect (CSA)
+- Certified Pega Business Architect (CPBA)
+- ISTQB Certified Software Test Engineer
+
+───────────────────────────────────────────────────────────────────────────
+PROJECTS WORKED ON AT VIRTUSA
+───────────────────────────────────────────────────────────────────────────
+
+Top UAE Bank - Digital Onboarding, KYC/AML Transformation & Mortgage Product Integration
+Domain: Banking (Retail & Business Banking) | Duration: Apr 2021 to Till Date
+Role: Lead Consultant (Business Analyst)
+Technology: Jira, Pega, Agile, SAFe
+Description: Led requirement gathering for digital onboarding journeys and KYC/AML transformation
+initiatives, defined business requirements and user stories, managed product backlogs, drove mortgage
+product integration, led UAT execution, and supported Pega-based workflow automation for major
+banking transformation programs.
+
+Relevant Industry Experiences:
+- Led requirement gathering workshops for digital onboarding journeys and KYC/AML transformation initiatives
+- Defined business requirements, use cases, process flows, and user stories in Jira, partnering with Product Owners to manage backlogs
+- Drove mortgage product integration initiatives within core banking platforms, aligning with Mortgage Lending specialization
+- Led UAT execution, business sanity validation, and production go-live support, demonstrating UAT leadership
+- Supported Pega-based workflow automation and successfully delivered major banking transformation programs
+
+───────────────────────────────────────────────────────────────────────────
+EXPERIENCE PRIOR TO VIRTUSA
+───────────────────────────────────────────────────────────────────────────
+
+Top Sweden Bank - Digital Lending Transformation & Banking Modernization
+Domain: Banking (Retail & Wholesale) | Duration: Jul 2016 to Apr 2021
+Role: Senior Consultant (BA / Scrum Master)
+Technology: Agile, Scrum, Jira, Confluence
+Description: Served as Onshore Coordinator, Business Analyst, Scrum Master, Test Lead, and Quality
+Lead. Facilitated Agile ceremonies, conducted gap analysis, and supported digital lending transformation
+projects and banking modernization programs for retail and wholesale banking platforms.
+
+Relevant Industry Experiences:
+- Facilitated Agile ceremonies including sprint planning and backlog refinement, contributing to Agile Delivery
+- Conducted gap analysis and process improvement initiatives for retail and wholesale banking platforms, driving transformation
+- Supported digital lending transformation projects and banking modernization programs, specializing in Mortgage Lending and Digital Transformation
+- Served as Business Analyst, translating business needs into functional requirements for banking platforms
+- Worked as Test Lead and Quality Lead, overseeing testing and UAT coordination for project quality
+
+Top US & UK Banks - Banking Migration & Transformation Programs
+Domain: Banking & Financial Services | Duration: Dec 2010 to Jun 2016
+Role: Associate
+Technology: HP ALM, Waterfall, SQL
+Description: Performed business requirement analysis for banking migration and transformation
+programs. Led end-to-end testing, defect management, and UAT coordination, supporting large-scale
+BFS implementations.
+
+Relevant Industry Experiences:
+- Performed business requirement analysis for banking migration and transformation programs
+- Led end-to-end testing, defect management, and UAT coordination for high-quality project delivery
+- Supported large-scale BFS implementations across banking and financial services domains
+- Collaborated with business users and technical teams to ensure alignment and successful project execution
+- Contributed to banking migration initiatives, emphasizing process optimization and system integration

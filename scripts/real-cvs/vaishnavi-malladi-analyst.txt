@@ -1,0 +1,72 @@
+MALLADI VENKATA VAISHNAVI
+Contact: +91-8978440990 | Mail: vaishnavimalladi@virtusa.com
+
+Associate Engineer – Technology
+
+Detail-oriented data analytics professional with strong skills in SQL for data extraction, analysis, and
+reporting. Experienced in creating insightful dashboards and visualizations using Tableau and Power BI to
+drive data-driven decision-making. Familiar with cloud fundamentals and modern analytics tools, with a
+passion for solving business problems through data.
+
+Core Competencies:
+Effective Communication Skills, Flexibility & Adaptability, Strong Time Management, Collaborative
+Teamwork, Dedicated and Hardworking
+
+Tools & Technologies:
+Programming Languages: Python, C, Core Java
+Databases: Oracle DB, MySQL
+Web Development: HTML, CSS
+Data & BI Tools: Tableau, Power BI, Data cleaning and transformation, ETL (Basic)
+Cloud & Platforms: Microsoft Azure, Power Automate
+Operating Systems: Linux (Basics)
+Emerging Technologies: Generative AI
+
+Technical Responsibilities:
+- Delivered data analysis and BI solutions using SQL (Oracle, MySQL, PLX) and Python for business and
+  product insights
+- Designed and maintained Tableau and Power BI dashboards, converting stakeholder requirements into
+  clear KPIs and visual reports
+- Built end-to-end dashboards including requirement gathering, data extraction, transformation, and
+  visualization
+- Automated reporting and analytics workflows using Python and Google App Scripts, reducing manual
+  effort and turnaround time
+- Supported the project by handling analytics requests, feature metrics, and dashboards via Buganizer,
+  managing multiple projects within SLAs
+- Collaborated with cross-functional analytics teams on dashboard development, automation, and data
+  migration initiatives
+
+Educational Qualifications:
+Professional Certificate in Data Analytics and Generative AI, IIT Kanpur
+B.Tech in Computer Science and Engineering, Geethanjali College of Engineering and Technology – 8.3 CGPA (2022)
+Intermediate (MPC), Sri Chaitanya Junior College – 91.8% (2018)
+SSC, Narayana Techno School – 8.8 GPA (2016)
+
+Achievements & Certifications:
+Microsoft Certified: Power BI Data Analyst Associate (PL-300) – 2025
+Microsoft Certified: Azure AI Fundamentals (AI-900) – 2025
+Oracle Certified Associate: Java SE 8 Programmer – 2024
+Oracle Database SQL Certified Associate (1Z0-071) – 2023
+Career Essentials in Generative AI – Microsoft & LinkedIn – 2023
+Microsoft Certified: Azure Fundamentals (AZ-900) – 2023
+ITIL v4 Foundation Certified – 2022
+
+───────────────────────────────────────────────────────────────────────────
+PROJECTS AT VIRTUSA
+───────────────────────────────────────────────────────────────────────────
+
+Project: Google Core Search
+Duration: August 2025 – Present
+Technology/Tools: SQL (PLX Scripts), PLX, Buganizer, AppScript
+Description:
+- Developed data analysis and BI solutions to support Google Core Search niche testing initiatives
+- Built and maintained dashboards to track KPIs, feature performance, and testing metrics for stakeholders
+- Automated reporting workflows to improve efficiency and enable timely, data-driven decision-making
+
+Project: Google Ads – Automated Site Links (ASL)
+Duration: September 2023 – December 2024
+Role: KPO Analyst
+Technology/Tools: EWOQ
+Description:
+- Provided analytical and operational support to the Google Ads ASL team
+- Assisted analysts in optimizing site link automation and ensuring quality standards
+- Utilized internal tools like EWOQ to track performance metrics and support campaign improvements

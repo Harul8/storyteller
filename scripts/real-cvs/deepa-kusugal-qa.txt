@@ -1,0 +1,50 @@
+DEEPA KUSUGAL | Software Engineer – QA | Virtusa Corporation
+6.8 years of experience in manual testing in the banking domain (Bank of Montreal).
+Expertise: SWIFT payments, test strategy, traceability matrix, defect management, automation (Robot Framework, Python).
+
+Tools & Technologies: HP-ALM, JIRA, Postman, Robot Framework, Python, Selenium
+
+Certifications:
+ISTQB Foundation Level — 2018
+ISTQB Agile — 2024
+
+Awards:
+Virtusa Passion Award — July 2021
+Dream Team Award — contributor
+Top Performer Bonus — August 2022
+
+Education:
+Bachelor of Engineering in Computer Science and Engineering
+KLS's Vishwanathrao Deshpande Institute of Technology, Uttara Kannada, Karnataka (2014–2018)
+
+───────────────────────────────────────────────────────────────────────────
+VIRTUSA CORPORATION
+───────────────────────────────────────────────────────────────────────────
+
+Project: Bank of Montreal – OLBB (Sep 2018 – Apr 2019 & Apr 2020 – Present)
+Role: QA Analyst
+Technology: HP-ALM, Postman, Robot Framework, Python, Selenium
+Testing Type: Manual and Automation Testing
+
+Responsibilities:
+- Identify and create test scenarios, test cases, traceability matrix, and defect tracker
+- Prepare test plan document
+- Work on execution of test cases
+- Create and upload SWIFT payments and validate them in various reports
+- Identify defects, log and report them in HP-ALM and track them until closure
+- Participate in all client and internal meetings, defect triage, and implementation calls
+- Work on automation script preparation and script run (Robot Framework, Python)
+- Data preparation for migration projects
+
+Project: Bank of Montreal – Payments (Apr 2019 – Apr 2020)
+Role: QA Analyst
+Technology: HP-ALM, JIRA, SWIFT Payments
+Testing Type: Manual Testing
+
+Responsibilities:
+- Identify and create test scenarios, test cases, traceability matrix, and defect tracker
+- Prepare test plan document
+- Work on execution of test cases
+- Create and upload SWIFT payments and validate them in various reports
+- Identify defects, log and report them in HP-ALM/JIRA and track them until closure
+- Participate in all client and internal meetings, defect triage, and implementation calls

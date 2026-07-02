@@ -1,0 +1,67 @@
+SENIOR CLOUD ARCHITECT | USA (Federal IT focus)
+20+ years leading cloud computing, enterprise architecture and systems engineering for Federal government agencies.
+Expertise: Full-life Cycle Systems Engineering, Enterprise Architecture, Program Management, Cloud Computing Services,
+Cloud Technology Adoption, Software Engineering, Capture/Proposal/Business Development.
+
+Technical Skills:
+Languages: C, C#, C++, .NET, Perl, JAVA, PHP
+Cloud: AWS, Microsoft Azure, Verizon/Terremark
+Technologies: DaaS, Drupal 7, Apache Hadoop, LAMP Stack, Oracle, iOS (C++), MapReduce
+Methodologies: Agile, Waterfall, Spiral, RAD, RUP, XP, SOA, EVMS, PMBOK (5th Ed), SEI CMMI
+Certifications/Standards: PMBOK (5th Ed), SEI CMMI, IEEE, DoD STD-498, NASA, CCSDS, Section 508
+
+───────────────────────────────────────────────────────────────────────────
+PROFESSIONAL EXPERIENCE
+───────────────────────────────────────────────────────────────────────────
+
+Senior Cloud Architect — Confidential (2019 – Present)
+- Cloud computing SME for Census Enterprise Data Collection and Processing (CEDCAP) program
+- Provisioned AWS, Azure, and hybrid infrastructure services; led cloud suitability assessments
+- Led CEDCaP Technical Integration Engineering Team; performance tested across 13 AWS clusters
+- Supported Enterprise Censuses and Surveys Enabling (ECaSE) platform and Internet Survey Response systems
+- Proposed Program Manager for Census Bureau's $600M Cloud BPA (Phase II)
+
+Cloud Computing SME / Program Manager IV — Confidential (2016 – 2019)
+- Strategic cloud support to Office of Assistant CIO for Weather (ACIO) at NOAA
+- Architected enterprise-wide Desktop-as-a-Service (DaaS) capability for National Weather Service
+- Managed migration of 1,000+ NWS devices to NOAA Enterprise Corporate Services
+- Founding member of NOAA's Cloud Computing Working Group
+- Developed application migration process for IaaS, PaaS, SaaS models with enterprise-wide cost analyses
+
+Senior Associate — Confidential (2013 – 2016)
+- Drove strategic cloud business development across Civil, Borders, Transportation, Justice, Homeland Security portfolios
+- Clients: DHS, FEMA, DOT, FAA, TSA, CBP, DOJ, FBI, ICE
+- Designed and deployed enterprise-wide IT systems across multiple Federal departments
+
+Senior Cloud Solutions Architect — USAID (2012 – 2013)
+- Senior architect for USAID Intranet Modernisation Initiative
+- Conducted Analysis of Alternatives across PaaS, iPaaS, IaaS, SaaS models
+- Led sprint sessions for requirements definition; developed migration and consolidation strategy
+
+Principal Technology Consultant & President — Confidential (2009 – 2012)
+- Developed Federal IT proposals valued $50M–$400M for NASA, NOAA, DOD, DOT, GSA, Census Bureau, IRS, DHS
+- Participated as blue/pink/red/gold team reviewer
+
+Vice President, Engineering — U.S. Department of Transportation (2007 – 2009)
+- CMS and Cloud-Computing SME for Research and Innovative Technology Administration (RITA)
+- Implemented Apache Hadoop proof-of-concept for 30+ years of archived transportation statistics
+- Managed Drupal 7 migration of 300,000+ HTML pages
+- Developed iOS app in C++ for Transportation Pocket Guide
+- UNIX administration and LAMP stack configuration on Verizon/Terremark cloud
+
+Project Manager / Systems Engineer V — U.S. Census Bureau (2004 – 2007)
+- Led large teams for Field Data Collection Automation (FDCA) program ($600M, 5-year)
+- Designed and deployed automated systems with near-real-time data delivery
+- Built multi-layer security architecture: fingerprint authentication, encryption, firewalls
+- Managed cost/schedule via EVMS; interfaced directly with Census Bureau leadership
+
+Chief of Technology, Science Division — NASA Goddard Space Flight Center (2000 – 2004)
+- Managed 100+ mission systems engineering tasks
+- Authored Data Migration Plan for MSES II/A ($400M/5-year contract)
+- Migrated ~25 terabytes of engineering data within a 1-month transition window
+- Software development in C, C#, C++, .NET, Perl, Java for spacecraft projects
+
+Chief Technology Engineer — NASA Goddard Space Flight Center (1997 – 2000)
+- Advised corporate senior management on technology investment; created 5-year technology execution plan
+- Designed web/cloud-based systems for remote-sensing data (multiple petabytes in Nebula Cloud)
+- Established Office of Science Utilisation (OSU); led interagency GIS and remote sensing conferences

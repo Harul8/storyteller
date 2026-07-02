@@ -1,0 +1,231 @@
+CHANDIMA PERERA | Lead Software Engineer | Virtusa Corporation
+
+Lead Software Engineer with 8+ years of experience in tool designing, developing, releases & support,
+product support, manual testing, functional testing, API testing, UI testing, integration testing, E2E testing
+& regression testing. Adept at analyzing requirements, identifying test scenarios, designing test cases,
+creating test data, preparing test evidence documents, executing test cases, identifying & raising bugs,
+maintaining web applications, collaborating with team members to deliver products within deadlines.
+Strong programming skills in Java, JavaScript, PHP, C, C++. Self-guided individual with strong managerial
+& analytical skills, concentrating on customer-centric approach to achieve results.
+
+Core Competencies:
+- Web Application Development
+- Manual Software Testing
+- Well-versed in Test Planning, Test Case Design, and Defect management
+- Team management and leadership, tracking and monitoring
+- System Design and Implementation
+- Experience working with automation frameworks using Selenium Web Driver and Java
+- Experience in SDLC, Agile and Hybrid Testing Processes
+
+Tools and Technologies:
+Java, PHP, NodeJS, C, C++, HTML5, CSS3, Bootstrap, JavaScript, REST API, jQuery, Ajax, Hibernate, JSP,
+Internet of Things (IoT), Jenkins, JIRA, TOAD for Oracle, Postman, IntelliJ IDEA Community Edition,
+Web Application and API Testing, AWS, Azure Cloud Resource Management, Client relationship management,
+Test data preparation techniques, Estimating test automation effort and ROI calculation, Software test
+estimation techniques, Defect life cycle in software testing, Test Summary/Closure Report, Different types
+of tests (Unit, Integration, Functional, End to end, Acceptance, Performance, Smoke etc.), Eclipse
+(Execution & debugging), Apache Tomcat server, SQL and MySQL server, Selenium, Requirements
+Traceability Matrix (RTM), Cloud Solutions Architecture – AWS, Web Services REST and SOAP, JSON, XML, JMeter
+
+Project Responsibilities at Virtusa:
+- Analyze requirements, creating scenarios, test execution & identify software defects
+- Support the team members on technical issues
+- Defect reporting and management
+- Conduct peer review and lead reviews
+- Conduct meetings to ensure quality of deliverables for continuous improvement
+- Mentoring and coaching team members and competency building within the team to deliver projects successfully
+- Involve in design and implementation of the project
+- Identify reusable code required for the code library and ensure high-quality code creation
+
+Organizational Responsibilities:
+- Mentor and coach junior team members
+- Contribute to the development of the Software Developing competency
+
+Educational Qualifications:
+B. Tech (Hons) in Computer Engineering, The Open University of Sri Lanka, 2017 (Completed)
+
+Achievements & Certifications:
+AMIE (Sri Lanka) — The Institution of Engineers Sri Lanka
+ECSL (Sri Lanka) — The Engineering Council Sri Lanka
+
+───────────────────────────────────────────────────────────────────────────
+PROJECTS WORKED ON AT VIRTUSA
+───────────────────────────────────────────────────────────────────────────
+
+Project: <NYL Insurance> NYL - VS 3YR FC - Purchase Experience Tech
+Role: Senior Consultant | Duration: March 2026 to May 2026 | Domain: Insurance
+Technology: Manual Testing, Postman, JIRA, Toad for Oracle, Orchestrator App, WinSCP
+Description: "Claims Central" is a PEGA Customer Relationship Management Application, which handles
+all the claims related processing for Life and Annuity policies. It is an integrated payment related systems
+and self-service portal.
+Responsibilities:
+- Attended Claims Prod Incidents & Problem Tickets Review sessions
+- Played a leadership role and coordinated with the Dev team to reproduce production defects on lower environment
+- Validated Life & Annuity side production defects
+- Clarified test scenarios with Product Owners
+
+Project: <NYL Insurance> NYL Claims Transformation 2023
+Role: Senior Consultant | Duration: June 2023 to February 2026 | Domain: Insurance
+Technology: NATS (NYL AI Test Synthesizer) App, Orchestrator App, Manual Testing, Automation with MABL,
+Postman, JIRA, Toad for Oracle, WinSCP
+Description: "Claims Central" is a PEGA Customer Relationship Management Application, which handles
+all the claims related processing for Life and Annuity policies.
+Responsibilities:
+- Created detailed test cases based on acceptance criteria of user story
+- Requested test data from the Lab team to execute test cases
+- Executed manual tests, including functional, regression, and smoke testing
+- Performed testing with mockup data from backend dev studio for test data unavailability
+- Identified and tracked defects using JIRA
+- Conducted correspondence side demos to client
+- Tracked for correspondence Dev side and PEGA side defects
+- Gave KT to new team members regarding send letter workflow
+- Prepared letter defaulting matrix for correspondence side
+- Validated Life and Annuity side Letters & XMLs
+- Worked with payment related systems of Claims Central application
+- Analyzed and validated production defects
+- Studied automation with the MABL tool
+- Participated in grooming sessions, sprint planning, retrospective sessions, handled Production & UAT defects
+- Participated in clarification sessions to resolve requirement gaps and other confusions of allocated JIRA User Story
+
+Project: Automation Flex – Enhancement Team
+Role: Consultant | Duration: September 2022 to June 2023 | Domain: Test Automation
+Technology: Java, Selenium, AWS Management Console, HTML, CSS, Bootstrap, PHP, MySQL, JSON
+Description: Accello DTA (Virtusa Test Automation Framework) is Virtusa's award winning proprietary test
+automation solution that generates high quality lean test scripts from a conceptual abstract model, which
+significantly accelerates test automation, reduces cost, and ensures high quality and consistent test scripts.
+Accello DTA supports an array of automation tools including Appium, SeeTest, Selenium, HP UFT enabling
+Web, Desktop, Database, Webservices, Mainframe and Mobile test automation.
+Responsibilities:
+- Completed automation delivery activities
+- Fixed vulnerabilities in AWS instances
+- Completed Accello mail listener tasks
+- Generated AMI for Accello-DTA-RunTime instance
+- Prepared Outlook Mail Trigger Configuration User Guide
+- Converted nexus URL into https
+- Fixed all vulnerabilities in the azuvtafflex01 & azuglobflex1 in Automation Flex servers
+- Fixed vulnerabilities in domain team's server (AZUGLOBFLEX2)
+- Resolved Azure VM access issue with help from the IT team
+- Designed and implemented Accello Demo site for automation presales demonstrations and automation
+  delivery activities (UI, Backend, and database); completed developer testing; deployed code base into server:
+  - Designed login, customer register, customer manage, dashboard, left & right navigation, bill payment,
+    fund transfer, my profile, edit profile, transaction history, error, session expire, e-statement etc.
+  - Developed exchange rates data from the API in dashboard page
+  - Developed data filtering option, pagination, change password functionalities and added validation
+  - Developed update functionality for grid results
+  - Developed "View Search History" according to search rules
+  - Developed "Excel and PDF Download" functionality in transaction history page
+  - Designed and developed UI for "Search By" in customer manage page (Account Type, Branch Code & Amount)
+  - Developed bulk user data uploading in Accello Demo site
+  - Created sample CSV template for user data in Accello Demo site
+- Attended cyber security findings in AZUVTAFFLEX01 server
+- Gave KT to domain team, remediate process of newly found vulnerabilities after Apache server setup
+- Initiated New IAM user creation request for Accello team
+- Fixed certificate issues in Jenkins and Nexus
+
+Project: Coaching Portal - Enhancement
+Role: Consultant | Duration: August 2022 to September 2022 | Domain: HR Leadership Development
+Technology: Java, JavaScript, JSP, MySQL
+Description: Tracking individual behaviour, managing documents, automating and centralizing all the
+activities which were done manually earlier through the 'Coaching Portal' application. The idea is to get a
+few senior Virtusa leaders trained and certified as Leadership Coaches to support development of fellow
+Virtusa team members.
+Responsibilities:
+- Attended requirement discussion session
+- Designed and implemented upload/view coach profile — Frontend (JSP), backend (JAVA), database (MYSQL)
+- Designed and implemented user profile sliding UI
+- Conducted demos for the Indian team
+- Provided production server support and solutions to technical issues
+- Gave KT to the Indian team about the newly enhanced flow
+
+Project: Cloud Academy Project
+Role: Consultant | Duration: June 2022 to July 2022 | Domain: e-learning
+Technology: AWS CloudFormation
+Description: Setup Accello DTA Labs, Exams and Learning Path in Cloud Academy
+Responsibilities:
+- Attended requirement discussion sessions
+- Played a leadership role and guided the team to achieve goals sticking to deadlines
+- Created Labs, Exams & Learning Path according to requirement and implemented for Accello-DTA Library category
+- Conducted demos to senior leadership
+- Published all things into cloud academy
+
+Project: IJP Enhancement – Backup Process
+Role: Consultant | Duration: March 2022 to April 2022 | Domain: Resource Management
+Technology: JavaScript, HTML, CSS, Bootstrap, PHP, MySQL
+Description: When the location RM team can upload updated data into IJP (Internal Job Portal), the system
+has a capability to back up the previous data with a time stamp.
+Responsibilities:
+- Designed and implemented the enhancement
+- Fixed defects of the system after the enhancement
+- Conducted demos to location RM team members
+- Provided production server support and solutions to technical issues
+- Managing all migrating tasks of this tool into domain servers
+
+Project: Coaching Portal
+Role: Associate Consultant | Duration: January 2021 to March 2022 | Domain: HR Leadership Development
+Technology: Java, JavaScript, JSP, MySQL
+Description: Tracking individual behaviour, managing documents, automating and centralizing all the
+activities which were done manually earlier through the 'Coaching Portal' application.
+Responsibilities:
+- Designed and implemented frontend (JSP), backend (JAVA) and database application
+- Implemented AD authentication using SSO
+- Created email templates
+- Prototype development
+- Conducted daily status update calls with the Indian team
+- Conducted demos for the Indian team
+- Created CSR file according to server details and installed certificate
+- Integrated RPA Bot for email triggering
+- Fixed defects in phase 1 and 1.1
+- Participated in UAT sessions
+- Provided production server support and solutions to technical issues
+
+Project: IJP Enhancement - Data uploader
+Role: Associate Consultant | Duration: November 2020 to December 2020 | Domain: Resource Management
+Technology: JavaScript, HTML, CSS, Bootstrap, PHP, MySQL
+Description: The Virtusa Location RM team can upload updated data into IJP (Internal Job Portal). All
+employees can view internal job opportunities through this portal and apply for relevant job vacancies.
+Responsibilities:
+- Designed and implemented the enhancement
+- Fixed defects of the system
+- Participated in UAT sessions
+- Conducted demos to location RM team members
+- Provided production server support and solutions to technical issues
+
+Project: ROI Project
+Role: Associate Consultant | Duration: August 2020 to October 2020 | Domain: Project Dashboard
+Technology: HTML, CSS, Bootstrap, PHP, MySQL
+Description: Return on Investment (ROI) is a performance measure used to evaluate the efficiency of an
+investment. If account leadership decides to initiate the project, they submit the details to the system,
+which checks whether a project is qualified or not for ROI calculation.
+Responsibilities:
+- Designed and implemented the application
+- Integrated RPA Bot for email triggering to account leadership
+- Fixed defects of the system
+- Conducted demos to senior leadership
+
+Project: <HNB Bank> HNB Finacle Upgrade QA Project
+Role: Associate Consultant | Duration: January 2020 to May 2020 | Domain: Banking & Finance
+Technology: Manual Test Design and Testing Techniques
+Description: HNB operated the Finacle core banking system for their customers. Finacle solutions address
+core banking, e-banking, treasury, wealth management and CRM requirements of retail, corporate and
+universal banks worldwide.
+Responsibilities:
+- Acquired knowledge about Bank, Banking channels, Retail Banking, Investment Banking, Corporate
+  Banking, Hubs, and Back-office functions
+- Completed project related exams
+- Received domain training from leadership
+- Designed Mind Maps for HNB customization
+- Wrote manual test cases for Mind Maps; peer reviewed test cases
+- Smoke, functional, regression, integration, system testing
+- Defects reporting & tracking; identified bugs and reported to leads
+- Attended daily stand-up; conducted Q&A sessions with the client
+
+Project: MERS Project
+Role: Engineer | Duration: October 2019 to December 2019 | Domain: Hospitality Management
+Technology: HTML, CSS, Bootstrap, PHP, MySQL
+Description: Mammographic Examination Registration System for the National Hospital, Colombo. The
+system maintains patient information, appointment details and scanning report details.
+Responsibilities:
+- Played a leadership role and guided the team to achieve goals sticking to deadlines
+- Designed and implemented the web application
+- Conducted demos to senior leadership and client
+- Fixed defects of the system

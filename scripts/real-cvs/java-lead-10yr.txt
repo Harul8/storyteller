@@ -1,0 +1,54 @@
+SENIOR FULL STACK JAVA LEAD DEVELOPER | Arkansas, USA
+10+ years of IT experience in full-stack development across web, client/server, enterprise and distributed systems.
+
+Technical Skills:
+Languages: Java 8/7, Python, C, SQL, PL/SQL
+Java Technologies: J2EE, Struts, Spring Boot/MVC/IOC/Security/Cloud, Hibernate, JUnit, SOAP UI
+Web: HTML5, CSS3, JavaScript, TypeScript, Bootstrap, AJAX, jQuery, React JS, Angular 6/7/8/9
+Cloud & DevOps: AWS (EC2/S3/RDS/Lambda/ECS), Azure (PaaS/IaaS/DevOps), PCF, OpenShift, Docker, Kubernetes, Kafka, RabbitMQ
+Databases: Oracle, SQL Server, MySQL, Couchbase, Cassandra, MongoDB
+Testing & Build: Jenkins, Bamboo, Maven, Gradle, Jest, Jasmine, Karma, Cucumber, Selenium, Mockito
+Other: Drools, JBPM, Splunk, Elasticsearch, Kibana
+
+───────────────────────────────────────────────────────────────────────────
+PROFESSIONAL EXPERIENCE
+───────────────────────────────────────────────────────────────────────────
+
+Full Stack Java Lead Developer — Confidential (Jan 2021 – Present)
+- Led requirements analysis, design, development and testing using Agile/Scrum
+- Designed and developed microservices using Spring Boot with Spring Cloud, Spring Security
+- Architected redesigned services using NGINX, Node.js, Express.js, MongoDB, MySQL
+- Implemented real-time data streaming using EJB, Spark, Kafka; created Kafka producer/consumer apps with Zookeeper coordination
+- Configured Spark Streaming to receive Kafka data and store to HDFS via Scala
+- Loaded data into Cassandra clusters via Java APIs; optimised schema for cluster performance
+- Deployed Spring Boot microservices on Docker using AWS EC2 container services
+- Designed cross-cloud solutions spanning Azure DevOps, AWS, Google, SoftLayer hybrid clouds
+- Built Azure infrastructure via Pipelines and Resource Manager Templates; configured RBAC roles
+- Managed Docker images and Kubernetes deployments across environments
+- Integrated Drools and JBPM for dynamic knowledge base and business rules engine
+- Developed SPAs and responsive interfaces with Angular 6/7/8/9 and React
+- Automated testing with Ruby/Cucumber; build automation via Maven; Jenkins CI/CD
+Environment: Java 8, Python, Spring Boot, Spring Security, EJB, REST, Azure, Docker, Kubernetes, Kafka, Cassandra, React, Angular, Node.js, MongoDB, Bamboo, Jira, PCF, Drools, AWS
+
+Senior Java Developer — Confidential (Feb 2018 – Dec 2020)
+- Developed Spring Boot microservices with REST and Kafka message-driven architecture
+- Analysed Kafka message failures using Kibana and Elasticsearch
+- Built frontend/backend modules with Python/Django framework
+- Deployed applications using Lambda, ECS, Docker containers with CI/CD
+- Containerised Spring Boot microservices to AWS EC2
+- Built RESTful web services using Jersey, Spring, JAX-RS
+- Developed Angular SPAs with Angular-Router; implemented complex stored procedures in SQL/PL-SQL
+Environment: Java, Spring, Kafka, Kibana, Elasticsearch, Python, Angular, React, D3.js, Node.js, PCF, Jenkins
+
+Java Developer — Confidential, Charlotte NC (Jul 2016 – Jan 2018)
+- Created and consumed RESTful web services; applied design patterns (Singleton, Factory, DAO)
+- Built frontend using HTML5, CSS3, JavaScript, JSON, Node.js, AngularJS
+- Created Angular services consuming REST APIs; built Analytics core with Node.js
+- Followed Agile with bi-weekly sprints, daily standups, peer code reviews
+Environment: Spring, Hibernate, Java, JSP, Node.js, AngularJS, JBoss, Oracle 10g
+
+Java/UI Developer — Confidential (Jun 2014 – Jun 2016)
+- Implemented MVC architecture across Enroll, Accounts Overview, Account Opening, Funds Transfer modules
+- Designed frontend using Angular.js, Node.js, object-oriented JavaScript
+- Executed root-cause analysis on production issues via log file analysis in Linux/Unix
+Environment: Java, J2EE, Struts 2, Spring MVC, Web Services, JSP 2.0, Servlets, JDBC, JBoss, Angular JS

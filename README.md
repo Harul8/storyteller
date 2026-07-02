@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Story Coach
 
-## Getting Started
+An AI interview-storytelling coach for IT services professionals. Upload a CV (PDF, DOCX, or paste text) and the app:
 
-First, run the development server:
+1. **Analyzes** it — detects the role/seniority, surfaces strengths and undersold gaps, and proposes story angles, per-project framing, and likely interview questions.
+2. Opens an **interactive coaching chat** that helps the candidate present their experience compellingly (STAR structure, quantified impact, tricky-question prep), grounded in their actual CV.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Built for engineers and consultants across the stack — Java, .NET, front-end, back-end, data, cloud, managed services, platform specialists (Pega, Salesforce, SAP, Oracle) — plus business analysts, project and program managers.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Provider & model choice
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Pick the AI provider and model from the UI (on the upload screen, and in the chat header):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Provider | Models |
+| --- | --- |
+| Anthropic (Claude) | Claude Sonnet 4.6 |
+| OpenAI | GPT-5 mini, GPT-4.1 mini, GPT-4o mini |
 
-## Learn More
+You only need an API key for the provider(s) you actually use.
 
-To learn more about Next.js, take a look at the following resources:
+## Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js 16** (App Router, TypeScript) + **Tailwind CSS v4**
+- **Anthropic** via `@anthropic-ai/sdk` and **OpenAI** via `openai`, behind one provider-agnostic layer (`src/lib/llm.ts`)
+- CV parsing: `unpdf` (PDF) and `mammoth` (DOCX), server-side
+- Streaming coaching responses; no database (CV + conversation live in the browser session)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Setup
 
-## Deploy on Vercel
+1. Add the key(s) for the provider(s) you want to use to `.env.local`, then restart the dev server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```
+   ANTHROPIC_API_KEY=sk-ant-...     # for Claude
+   OPENAI_API_KEY=sk-...            # for OpenAI
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Install dependencies (already done if you scaffolded here):
+
+   ```
+   npm install
+   ```
+
+3. Run the dev server:
+
+   ```
+   npm run dev
+   ```
+
+   Open http://localhost:3000.
+
+## How it works
+
+| Path | Purpose |
+| --- | --- |
+| `src/app/page.tsx` | Client UI: CV input -> analysis report + coaching chat, plus the provider/model picker |
+| `src/app/api/analyze/route.ts` | Extracts CV text, runs the analysis, returns a structured `Analysis` |
+| `src/app/api/chat/route.ts` | Streams coaching replies, grounded in the CV + analysis |
+| `src/lib/llm.ts` | Provider-agnostic analyze + streaming-chat layer (Anthropic / OpenAI) |
+| `src/lib/models.ts` | Provider + model allowlist, shared by the UI and the API |
+| `src/lib/extract.ts` | PDF / DOCX / text extraction |
+| `src/lib/prompts.ts` | Analysis and coach system prompts |
+| `src/lib/types.ts` | Shared `Analysis` / `ChatMessage` types |
+
+## Notes / next steps
+
+- No accounts or persistence yet — refreshing the page clears the session.
+- The CV is sent only to the provider you select; nothing is stored server-side.
+- Possible follow-ups: save/share sessions, export the analysis, role-play mock interviews, and CV-document rewriting (this MVP focuses on interview storytelling).

@@ -1,0 +1,168 @@
+BHONAGIRI NAVEEN KUMAR
+Associate Engineering Manager | Elastic Stack Architect | Observability & Cloud Operations Leader
+Phone: +91 8341135144 | Email: kumar.bhonagiri@gmail.com
+
+PROFESSIONAL SUMMARY
+Associate Engineering Manager with 18+ years of IT experience specializing in Enterprise Observability,
+Elastic Stack (ELK), Cloud Operations, Platform Engineering, and IT Service Management. Extensive
+expertise in Elasticsearch Cluster Administration, Logstash Pipeline Development, Kibana Dashboarding,
+Performance Tuning, Incident Management, and Enterprise Monitoring solutions across AWS, GCP,
+Azure, and Kubernetes/EKS environments.
+Proven track record of architecting and implementing centralized logging and observability platforms
+from the ground up, managing 20+ Elasticsearch clusters supporting over 1 TB of daily log ingestion, and
+leading teams of up to 40 engineers. Experienced in driving Site Reliability Engineering (SRE) practices,
+platform modernization, capacity planning, high availability architectures, and operational excellence for
+mission-critical enterprise applications.
+Certified AWS Solutions Architect, Google Cloud Associate Cloud Engineer, Microsoft Azure Solutions
+Architect, PMI-ACP, and ITIL Foundation professional with strong stakeholder management, cloud
+governance, and cross-functional leadership experience.
+
+───────────────────────────────────────────────────────────────────────────
+PROFESSIONAL EXPERIENCE
+───────────────────────────────────────────────────────────────────────────
+
+Associate Engineering Manager – Observability & Cloud Operations | Virtusa | 2022 – Present
+
+- Architected, implemented, and owned enterprise-scale Elastic Stack observability platforms supporting
+  1 TB/day log ingestion across 20+ clusters.
+- Provided production support for Elastic Stack performance monitoring and tuning to ensure high
+  availability.
+- Monitored and troubleshot Elasticsearch indexing failures, cluster health issues, shard allocation and
+  query performance bottlenecks.
+- Configured and maintained Logstash pipelines for log ingestion, enrichment and transformation.
+- Managed Filebeat deployments across multiple servers and environments.
+- Created and maintained Kibana dashboards, visualizations, reports and alerting solutions.
+- Performed RCA for missing logs, delayed events and production incidents.
+- Monitored CPU, memory, disk usage, JVM health and node status for cluster stability.
+- Managed index lifecycle management (ILM), rollover policies, retention and archival strategies.
+- Onboarded logs from Linux, Windows, Cisco, F5, Palo Alto, Kubernetes, AWS, and enterprise
+  applications into centralized Elastic platforms.
+- Responded to production incidents and ensured SLA compliance.
+- Collaborated with solution architects, infrastructure teams and application teams to resolve issues.
+- Documented SOPs, runbooks, troubleshooting guides and platform standards.
+- Managed AWS and GCP cloud operations, IAM and governance activities.
+- Administered Jira and Confluence environments.
+- Led and mentored a team of 40 engineers across Elastic Stack operations, cloud support, and
+  enterprise monitoring initiatives.
+
+Platform Engineering & Reliability:
+- Managed 20+ Elasticsearch clusters supporting over 1 TB/day log ingestion.
+- Implemented capacity planning and high availability strategies for Elastic environments.
+- Performed disaster recovery planning and platform resiliency assessments.
+- Collaborated with SRE, infrastructure, and application teams to improve platform reliability.
+- Supported Kubernetes/EKS-based workloads and container monitoring solutions.
+- Implemented ECS standards and Elastic Agent onboarding strategies.
+
+───────────────────────────────────────────────────────────────────────────
+
+Technology Lead — Infosys — (2012 to 2022)
+
+Technology Lead -- MFG ADM (2017–2022):
+ELK Stack:
+- Implemented enterprise centralized logging solutions using Elastic Stack for manufacturing and energy
+  sector clients.
+- Implemented Centralized Log monitoring Solution by using ELK Stack.
+- Worked on ELK Solutions & Logging/Monitoring Service. Monitoring applications to identify the pain
+  areas and provide suggestions to the corresponding teams in improving application performance.
+- Designed Kibana dashboards and operational monitoring solutions for business critical applications.
+- Involved in setting up different types of beats and establishing secure data transfers from client
+  application sources.
+- Configured multiple alerts by using ELK Watcher integrations according to client requirements.
+AWS/GCP:
+- Good working knowledge on AWS and GCP Cloud Services.
+- AWS roadmap and issues coordination within Jira.
+- Managing user permissions for tools according to the needs of projects and teams.
+- Providing end to end support of all AWS/GCP services.
+- Managing the User administration at the AWS and GCP level.
+- AWS/GCP roadmap and issues coordination within Jira.
+- Technical coordination of tasks within AWS/GCP accounts via Jira.
+- Experienced in creating, configuring and maintaining Infrastructure on AWS/GCP Cloud services &
+  Security Groups and IAM.
+Atlassian Tools:
+- Assisting users on Dashboards and Gadgets in Wiki pages & Jira.
+- Responsible for working on a queue of JIRA tickets to address system issues, user requests, etc. on a
+  daily basis.
+- Managing user permissions for tools according to the needs of projects and teams.
+- Managing the User administration at the AWS level by using SSO service.
+- Integration of JIRA with Confluence and other 3rd party tools using plug-ins.
+- Change requests coordination between internal IT customers and 3rd party provider via portal and Jira.
+- Experience in Importing CSV files into JIRA.
+- Wiki space structure & layout design.
+- Support of Wiki reader's community. Forum communications.
+
+Operations Support – MFG IVS ERM DU 3 & 4 (2016–2017):
+- Closely working on Revenue and volume analysis with respect to given BE and accordingly providing
+  feedback to DMs, GPM and SPM on respective projects, sharing areas of improvement and scope for
+  opportunities for the respective projects.
+- Taking part in BE discussions and helping GPM in gathering the details and analyzing the reports.
+- Handling Operational metrics, Bench and Buffer management for MFG DU 3 and 4.
+- Also working on Adhoc requests shared by DM & GPM and accordingly providing the required
+  information.
+- Interact with clients to understand technical issues and provide suitable solutions.
+
+Support Lead Offshore – BP Upstream (2013–2016):
+- Working as Support Lead Offshore and leading GOO Service Line team from offshore.
+- Custom Application Support, Configuration and Release management role within the team, lead the
+  GOO service line support from offshore, handle tickets using ITIL processes and resolve them within
+  predefined Service Level.
+- Along with the application support, also taken additional responsibilities of configuration management
+  and release management within the team and also responsible for correcting CMDB records for the set
+  of applications and as part of release management, also coordinating with team members for the
+  approval of RFC (Request For Change) and for testing of the applications after Microsoft patches like
+  QR, ER, SFR etc. Interacting with clients for the monthly updates and ongoing issues for some of the
+  critical applications.
+- Also involved in coordination with multiple stakeholders, service improvements, application issue
+  resolution; standardize process implementation and application maintenance. Interact with clients to
+  understand technical issues and provide suitable solutions.
+- Emphasize implementation of ITIL processes in day to day support activities and cascade to team the
+  learnings.
+- Participate in knowledge management forums and share ideas and learnings to the team, stakeholders,
+  account and at corporate level.
+- Handling Tier 1 & MVS MSR for entire Infosys BP Upstream. Playing key role in project management
+  and closely working with GPM on the project related activity. Providing trainings on Remedy Tool,
+  Incident & Change Management to the team.
+- Coordinating with various teams like DB team, Server support team and L3 team for the deployments to
+  the applications.
+
+Team Lead – BT OPRA FLS & OBIEE Team (2012–2013):
+- Handling FLS and OBIEE team and ensuring that FTR and TAT are met as per client requirement.
+- Accountable for setting targets/goals for the process and responsible for daily work allocation done by
+  team members.
+- Effectively managing multiple tasks to ensure delivery on time with client satisfaction.
+- Preparing Monthly MSR and attending Daily/weekly calls and sharing the updated information between
+  client & Team.
+- As an OBIEE Analyst, responsibilities include Design and implementation of module.
+- Expertise in converting and using Oracle BI Apps pre-built RPDs according to business requirements.
+
+───────────────────────────────────────────────────────────────────────────
+KEY ACHIEVEMENTS
+───────────────────────────────────────────────────────────────────────────
+- Designed and implemented enterprise-wide Elastic Observability Platform from scratch.
+- Managed 20+ Elasticsearch clusters supporting 1 TB/day log ingestion.
+- Led a team of 40 engineers across observability, cloud operations, and support functions.
+- Improved platform availability and operational reliability through proactive monitoring, capacity
+  planning, and Elastic cluster performance tuning.
+- Implemented enterprise logging standards using ECS and centralized monitoring architecture.
+- Supported Kubernetes/EKS adoption and containerized application monitoring.
+
+───────────────────────────────────────────────────────────────────────────
+CORE COMPETENCIES
+───────────────────────────────────────────────────────────────────────────
+Elastic Stack & Observability: Elasticsearch Cluster Administration, Logstash Pipeline Development,
+Kibana Dashboarding & Visualization, Filebeat/Metricbeat, Elastic Agent, Watcher Alerting, Elastic
+Common Schema (ECS), Index Lifecycle Management (ILM), Elastic Security, Enterprise Logging, Log
+Analytics, Observability Platform Engineering
+
+Reliability & Operations: Site Reliability Engineering (SRE), Incident Management, Problem Management,
+Root Cause Analysis (RCA), Capacity Planning, High Availability Architecture, Disaster Recovery Planning
+
+Cloud & Containers: AWS, GCP, Azure, Kubernetes, Amazon EKS, Container Monitoring
+
+───────────────────────────────────────────────────────────────────────────
+CERTIFICATIONS
+───────────────────────────────────────────────────────────────────────────
+AWS Certified Solutions Architect | Google Cloud Associate Cloud Engineer | Microsoft Azure Solutions
+Architect | ITIL Foundation V3 | PMI-ACP
+
+EDUCATION
+Bachelor of Science

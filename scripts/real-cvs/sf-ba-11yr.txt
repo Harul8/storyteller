@@ -1,0 +1,47 @@
+LEAD SALESFORCE BUSINESS ANALYST & SCRUM MASTER | Georgia, USA
+11+ years implementing and supporting Salesforce-based enterprise CRM across multiple industries.
+Expertise: Full-lifecycle Salesforce implementations, migrations, integrations, UAT coordination,
+requirements management, process improvement, Agile/Scrum/Kanban/SAFe, BRDs/FRDs/RTM documentation.
+
+Salesforce Skills: Sales Cloud, Service Cloud, Communities, Knowledge Articles, Custom Applications,
+Vlocity/OmniScripts, Conga Composer, Eloqua integration, Lightning, Apex, Visual Force, Triggers,
+Process Builder, Workflow Rules, Data Loader, Approval Processes, Reports & Dashboards, AppExchange
+
+───────────────────────────────────────────────────────────────────────────
+PROFESSIONAL EXPERIENCE
+───────────────────────────────────────────────────────────────────────────
+
+Lead Salesforce Business Analyst & Scrum Master — Confidential, GA (Jan 2020 – Present)
+- Led backlog grooming, sprint planning, stand-ups, demos, retrospectives and PI Planning (SAFe)
+- Managed Salesforce application development, deployment and support projects end-to-end
+- Implemented Vlocity AppExchange solutions and OmniScripts for custom community UIs
+- Migrated Visualforce-based custom community to Salesforce standard platform with ambassador allocations, order management, and R&D shipping integration
+- Executed Salesforce-to-Conga Composer integration
+- Configured roles, profiles, OWDs, sharing settings; led UAT and mid-sprint demos
+
+Lead Business Analyst / Project Manager / Scrum Master — Confidential, VA/DC (Mar 2017 – Dec 2019)
+- Managed end-to-end project lifecycles from requirements definition through delivery sign-off
+- Executed Salesforce-to-Eloqua integration for campaign and lead management
+- Migrated legacy applications (Cold Fusion, SharePoint, .NET, Java) to Salesforce and Drupal with full data migrations
+- Developed SOW, cost/schedule tracking, product roadmap; facilitated UAT with State Board users
+
+Senior Salesforce Business Analyst — Confidential, NY/NJ (Jun 2015 – Feb 2017)
+- Led system design and object modelling including security architecture (sharing rules, permission sets)
+- Managed 24/7 offshore SFDC application team; developed internal CRM product
+- Trained and mentored junior analysts and testers on Salesforce
+- Conducted JAD sessions, walkthroughs with dev, PM and QA teams
+
+Senior Salesforce BA / Admin — Confidential, Mountain View CA (Jan 2014 – May 2015)
+- Gathered requirements via workshops, interviews and workflow storyboards
+- Configured custom objects, junction objects, master-detail/lookup relationships, formula fields
+- Managed 24/7 support model; interacted with Salesforce premium tech support
+
+Salesforce Consultant — Confidential, Chicago IL (Jul 2013 – Dec 2013)
+- Implemented Service Cloud: case management, Service Cloud Console, CTI
+- Created summary, matrix and dashboard reports with role-based folder access
+- Implemented complex approval processes for capital management authorisation
+
+Salesforce Business Analyst — Confidential, Chicago IL (Jun 2012 – Jun 2013)
+- Analysed CRM processes and mapped onto Salesforce for full lifecycle implementation
+- Implemented Cost Guard and XO Communication integrations
+- Created user guides for four different user roles

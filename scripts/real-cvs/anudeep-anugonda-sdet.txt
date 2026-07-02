@@ -1,0 +1,96 @@
+ANUDEEP ANUGONDA
+LEAD SOFTWARE ENGINEER – QUALITY ENGINEERING & AUTOMATION
+Phone No.: +91 - 9032000092 | Email ID: anudeepanugonda@gmail.com
+
+Results-oriented Senior Lead Software Engineer with 7+ years of expertise in automation testing, API
+engineering, and end-to-end quality assurance, seeking challenging roles that demand scalable automation
+frameworks, advanced testing strategies, and cross-functional collaboration to deliver high-quality,
+business-critical software solutions.
+
+Profile Summary:
+- Strong expertise in Java-based automation frameworks, API testing, and end-to-end test strategy design
+  for complex, integrated systems
+- Hands-on experience with Selenium, Rest Assured, UFT, Robot Framework, and BDD (Cucumber) for
+  scalable automation solutions
+- Displayed impact through process optimization, including significant cycle-time reduction by
+  transitioning GUI-based workflows to API-driven automation
+- Strong collaborator with development and product teams, contributing to risk-based testing, sprint
+  planning, defect management, and continuous quality improvement
+
+Achievements & Certifications:
+- Received certificate of appreciation for the commitment to complete the deliverables on time
+- Received Super Squad Award for one of the most complex Pega application upgrade with zero production
+  defects
+
+Core Competencies: Test Automation Strategy, Problem Solving, Debugging, Windsurf, End-to-End Quality
+Engineering, Defect Analysis & Quality Governance, Leadership
+
+Technical Skills:
+- Automation Frameworks & Tools: Hybrid BDD Test Automation Framework using Cucumber + TestNG
+  with Page Object Model (POM) design pattern, Selenium WebDriver, REST Assured
+- Other Tools: Microsoft Dynamics 365, PEGA
+- Programming Languages: Java (Java 17)
+- Testing Types & QA Expertise: UI Testing, API Testing, Functional Testing, Regression Testing, Manual &
+  Automated Testing, Risk Based Testing, Defect Analysis, Debugging
+- API & Web Services: REST, SOAP, Postman
+- CI/CD & Build Tools: GitLab CI, Jenkins, Maven
+- Test Management & Reporting: Zephyr Scale, Jira, Extent Reports
+- Data Handling & Databases: Apache POI (Excel), JSON
+- Logging & Monitoring: log4j2
+- AI: Windsurf
+- Methodologies: Agile
+
+───────────────────────────────────────────────────────────────────────────
+WORK EXPERIENCE
+───────────────────────────────────────────────────────────────────────────
+
+Virtusa Consulting Services Pvt. Ltd., Hyderabad | Senior Lead Software Engineer | Aug'24 – Present
+Client: Bank of New York (BNY)
+- Designed and automated functional test cases, identified automation-ready scenarios, and delivered
+  in-sprint automation, enabling faster regression cycles and improved release stability
+- Monitored, maintained, and optimized GitLab CI pipelines executing Regression, Smoke, and Sanity test
+  suites, analyzing failures, resolving test data issues, and significantly reducing pipeline flakiness
+- Reviewed and approved GitLab Merge Requests (MRs) as a senior team member, ensuring code quality,
+  managing branch merges, and supporting team members in resolving merge conflicts and integration
+  issues
+- Leveraged Zephyr test management - Integrated with Jira to create Traceability Matrices, Release
+  Summary Reports, and Test Closure Reports (TCR), coordinating stakeholder reviews and securing formal
+  sign-off from Project Management
+- Actively participated in Agile ceremonies including Daily Stand-ups, Sprint Planning, Backlog
+  Refinement, Sprint Reviews, and Retrospectives, contributing to continuous process improvement
+- Analyzed production defects and delivered detailed Root Cause Analysis (RCA) to identify systemic
+  issues, prevent recurrence, and improve overall application quality
+
+Virtusa Consulting Services Pvt. Ltd., Hyderabad | Lead Consultant - PEGA | Aug'23 – Jul'24
+Client: Elevance Health – NextGen-GBD – Health Care
+- Worked on the development of an application with Pega Customer Service, Anthem-created Solution
+  Central
+- Analyzed complex business requirements to architect comprehensive test strategies and ensure full
+  feature coverage
+- Conducted automation feasibility assessments to prioritize high-impact test cases, optimizing resource
+  allocation and sprint velocity
+- Developed modular automation scripts using Selenium and Cucumber, fostering a scalable and reusable
+  testing framework
+- Executed rigorous failure analysis to identify root causes, collaborating with developers to accelerate bug
+  resolution cycles
+- Performed proactive impact analysis on shifting requirements to maintain script integrity and minimize
+  technical debt
+
+Other Projects at Virtusa:
+- Elevance Health – NextGen Pega Upgrade (v8.4 to v8.8) – Health Care | Consultant | PEGA | March 2023
+  to August 2023
+- Elevance Health – Compass and Solution Central – Health Care | Consultant | PEGA | June 2021 to
+  January 2023
+- Elevance Health – NextGen Pega Upgrade (v7.2 to v8.4) – Health Care | Associate Consultant | PEGA |
+  July 2020 to June 2021
+- Vodafone – UK – Cove Canary – Telecom | Senior QA Engineer | Manual Testing | January 2020 to April
+  2020
+- RBS – LDCR – Banking | Senior Consultant | Manual Testing | October 2019 to December 2019
+
+───────────────────────────────────────────────────────────────────────────
+EDUCATIONAL QUALIFICATIONS
+───────────────────────────────────────────────────────────────────────────
+B. Tech (Mechanical) in 2012 from Sri Indu College of Engineering and Technology, Hyderabad.
+
+Personal Details:
+Date of Birth: 15 July 1991 | Languages known: English, Telugu & Hindi

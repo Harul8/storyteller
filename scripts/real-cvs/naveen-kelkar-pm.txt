@@ -1,0 +1,138 @@
+NAVEEN JEEVAN KELKAR | Project Manager • Service Delivery Management – Delivery | Virtusa Corporation
+
+20+ years of experience in managing IT service delivery, Data Analytics and Visualization, project and
+program management in Banking and Healthcare domains.
+
+Core Competencies:
+IT Service Delivery Management, Project Management, Data Visualization Principles, Data Connectivity &
+Integration, Business Process Reengineering, Team Leadership, DAX (Data Analysis Expressions), Data
+Transformation (Power Query), Data Storytelling, Power BI Dashboard Design, Data Modeling Fundamentals
+
+Tools and Technologies:
+MS Power BI, MS Office, MS Power Apps, MS Project, MS SharePoint, Shell, Perl, VB, Excel VBA, HTML,
+JQuery, CSS, SharePoint Site Development, JIRA, SERVICE NOW, BMC Remedy User, CA Service Desk,
+MAXIMO, ITSM Tools (Incident Management, Change Management)
+
+Responsibilities:
+- Understand project goals and objectives, what is in scope and out of scope to be delivered, and related
+  constraints, terms, and conditions
+- Manage routine administrative aspects including leave & shift rotation management, analytical reviewing
+  and metrics reporting amongst others
+- Identification of roles, assign risk owners, responsibilities, and levels of authority for management and
+  decision-making, development of contingency plans, criteria for implementation, and strategies
+  supporting project plan
+- Interact with senior management and project stakeholders for implementing various process
+  improvement initiatives based on changing market dynamics and other related factors
+- Evaluate project performance & render productivity enhancement feedback. Conduct ongoing analysis of
+  risks, and changes, revise the project plan and report status
+
+Educational Qualifications:
+MBA (Information System), SMU-DE (2019)
+Bachelor's in Science (Information Technology), SMU-DE (2014)
+
+Achievements & Certifications:
+Scrum Alliance – Certified Scrum Master (CSM®)
+Amazon Web Services – AWS Certified Solutions Architect – Associate
+PL-300 Microsoft Power BI Data Analyst
+
+───────────────────────────────────────────────────────────────────────────
+PROJECTS WORKED ON AT VIRTUSA
+───────────────────────────────────────────────────────────────────────────
+
+AstraZeneca Account: EUIT BAU Managed Services — August 2025 till date
+Role: Project Manager - Delivery | Technology: Project Management
+Description: AstraZeneca EUIT stands for Enabling Units IT, which is the technology and digital division
+responsible for supporting the company's internal, non-scientific business functions. The department
+manages over 200 in-house and third-party applications globally. Major technology hubs in India, Mexico,
+and the UK facilitate the EUIT team's development and maintenance of essential platforms that support
+pharmaceutical operations. Core responsibilities encompass:
+1. Corporate Systems Management: Oversight of enterprise applications for Sustainability, Corporate
+   Affairs, Legal, HR, and Finance.
+2. Data and AI Infrastructure: Establishing scalable data architectures and foundations to drive
+   operational excellence and generative AI functionality.
+3. Enterprise Integration: Architecting robust pipelines to link internal platforms like ServiceNow and
+   Concur with global business processes.
+AstraZeneca Enabling Units IT BAU: Business as usual team encompasses the day-to-day IT operational
+support, maintenance, and continuous improvement services managed by the company's global technology
+divisions to ensure seamless operations.
+
+Citibank: Platinum Account: SBU - Markets Technology & Data Engineering – Banking — April 2024 till July 2025
+Role: Individual Contributor | Technology: Power BI, MS SharePoint
+Description: Creation and maintenance of SBU Level Dashboards using Excel, SharePoint, and Power BI.
+Data Visualization of Revenue, Margin, Various Trainings and Operational Data received periodically.
+Helping SBU Delivery Directors with upkeeping of their people management activities on a day-to-day
+basis. Effective data analysis for management processes for quick decision making and efficient reporting.
+
+Elevance Health (Anthem): Healthcare — Jan 2020 – Mar 2024
+Role: Project Manager - Delivery | Technology: Project Management, Management of Agile Development
+Teams, Power BI Dashboards
+Description: Elevance Health (Anthem) is a leading health benefits company dedicated to improving lives
+and communities and making healthcare simpler. Through its affiliated companies, Anthem serves more
+than 108 million people, including more than 42 million within its family of health plans. With PEGA
+Customer Service, Anthem created Solution Central. Solution Central intelligently centralizes and
+organizes data so that each customer service call is contextual and exceptional. The Power BI Dashboard
+was created and maintained to help Management upkeep People Management and various reportings.
+
+Citibank: Data Quality Portfolio – Trade Surveillance – Banking — Jun 2019 – Dec 2019
+Role: Project Manager - Delivery | Technology: Project Management
+Description: Trade Surveillance is about implementing a surveillance system that monitors and detects
+activities for market manipulation, fraud, behavioral patterning and more across all asset classes and all
+products, thereby ensuring the prevention and investigation of abusive, manipulative or illegal trading
+practices in the securities market. Markets Trade Surveillance (Markets) – MANTAS for prescriptive,
+rules-based surveillance. APAMA for non-prescriptive, principles-based surveillance. SMARTS for
+exchange-based surveillance of cash equities. Information Barrier Surveillance Group (IBSG) – Its primary
+responsibility is to detect the misuse of material non-public information (MNPI) as well as identify trades
+that may have violated federal securities laws, SRO rules and internal policies prohibiting insider trading
+and manipulative and deceptive practices. IBSG monitors employee, customer and firm accounts to
+identify such potential violations. Retail Brokerage Trade Surveillance (Retail) – Provide a platform for
+surveillance of sales practices across the private and the consumer banks. The focus of surveillance is
+broker activity and sales practice as well as certain aspects of portfolio suitability and concentration. This
+portfolio aims to consolidate multiple alerts generation Engines on one platform and provide consistent
+workflow functionally across regions and LOBs.
+
+Citibank: Institutional Client Group – TTS Production Support – Banking — Nov 2018 – May 2019
+Role: Project Manager - Delivery | Technology: Project Management
+Description: Citi Treasury and Trade Solutions (TTS), provides integrated cash management and trade
+finance services to multinational corporations, financial institutions and public sector organizations
+across the globe. With a full range of digital and mobile enabled platforms, tools and analytics, TTS
+continues to lead the way in delivering innovative and tailored solutions to its clients. TTS offers the
+industry's most comprehensive suite of treasury and trade solutions including cash management,
+payments, receivables, liquidity management, and investment services, working capital solutions,
+commercial card programs, trade finance and services. ICG PS teams provide production support to over
+100 applications supporting TTS information technology infrastructure.
+
+First Data Corporation – Banking — Jun 2016 – Oct 2018
+Role: Project Manager - Delivery | Technology: Project Management
+Description: FDC's re-platforming project is for the implementation of new MFT architecture necessary
+to meet growing demand for file transfer over secure and diverse protocols. The need for SFTP, FTPS and
+HTTPS increases each year. FDC has outgrown its current MFT solutions and must provide greater
+flexibility both in routing and provisioning of protocols for file transfer. Additionally, greater security,
+shorter cycle to on-board partners, consolidation of a number of MFT systems and initiatives.
+
+───────────────────────────────────────────────────────────────────────────
+EXPERIENCE PRIOR TO VIRTUSA
+───────────────────────────────────────────────────────────────────────────
+
+BA Continuum India Pvt. Ltd. - Sr. Analyst – Banking — Apr 2009 – Jun 2016
+Role: Individual Contributor
+Technology: Legacy CLEAR, IBM Sterling B2B Integrator (formerly known as Gentran Integration Suite –
+Sterling Commerce), IBM Sterling File Gateway, IBM Sterling Secure Proxy, IBM Sterling Control Center, ML
+Clear, BA Clear, IBM Connect: Direct, Mainframe TSO/ISPF, CA7, ITP, EDTUP, MoveIT, MBNA, eBDX, JMS etc.
+Description: Data Transaction / Transformation Services (DTS) provides secure information movement
+within and outside of the enterprise, facilitates data growth, improves business capabilities and provides
+oversight to reduce security risks and strengthen data leakage protection. DTS is integrating key
+technologies to provide business solutions and maintain the competitive advantage of Bank of America. In
+addition to every internal line of business, DTS serves over 35000 distinct institutional clients, private and
+public entities worldwide. Over 75000 accounts are defined and over 6M transactions are executed and
+about 1500 being added to the volume every month.
+
+Satyam Computer Services Ltd. – Sr. Systems Engineer – Banking — Nov 2007 – Apr 2009
+Technology: Legacy CLEAR, IBM Sterling B2B Integrator (formerly known as Gentran Integration Suite –
+Sterling Commerce), IBM Sterling File Gateway, IBM Sterling Secure Proxy, IBM Sterling Control Center, ML
+Clear, IBM Connect: Direct, Mainframe TSO/ISPF, CA7, ITP, EDTUP, MoveIT, MBNA, eBDX, JMS etc.
+Description: Managed client accounts provisioning involving JCL and control cards (login, delete, get and
+put member creation), job testing, job abends, endevor. Maintained regular interaction with clients for
+troubleshooting transmission and connectivity issues, job abends, application monitoring, incident
+monitoring, change management, system restarts and adhoc requests. Catered to project Merrill Lynch
+CLEAR ("Client Electronic Access and Reporting") a utility for secure file exchanges between Merrill Lynch
+internal business units and their external clients (Trading and Business Partners).

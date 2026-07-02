@@ -1,0 +1,148 @@
+INDIRA K J | Software Engineer – QA
+
+7.4 years of experience in the software industry as Software Engineer - QA
+Experience in Mobile Application (Android & iOS), Web Application and Windows application Testing.
+Well versed with all stages of Software Development Life Cycle (SDLC) and Software Testing Life Cycle (STLC).
+Tested APIs of different HTTP methods (GET, PUT, POST and DELETE).
+Worked in Agile development environment where changes in requirement happen frequently.
+Experience in Functional, Smoke, Regression, Integration and Field validation Testing.
+Experience in Test Cases Design and Execution of Test Cases.
+Working knowledge on MySQL to conduct database testing.
+Work experience on API testing.
+Thorough understanding of Bug Life Cycle.
+Exposure to bug tracking tools like Jira and Bugzilla.
+Comfortable consulting with clients to determine their needs and priorities.
+Coordinating the Testing activities with Development Team.
+Training the new joiners for the product working on.
+
+SKILL SET:
+Test Management Tool: Test Rail and PractiTest
+Bug Tracking Tools: Bugzilla, JIRA
+Debugging Tool: Android Studio – Logcat, Log Encrypted Tool, Test Flight, Mosaic – Databricks
+Test Environment: VMware vSphere Client
+Database Tool: MySQL – Oracle
+API: Swagger UI, SOAP UI, Postman tool
+
+ACADEMIC PROFILE
+B.E in Electronics and Communication (E&C) Engineering from GEC, Hassan with an aggregate of 66% (2010–2014)
+
+───────────────────────────────────────────────────────────────────────────
+PROFESSIONAL EXPERIENCE
+───────────────────────────────────────────────────────────────────────────
+
+VIRTUSA
+
+Client: Reliance Matrix | Project: Matrix Absence Management | Dec 2023 – till date
+Domain: Health Insurance | Technology/Tools: Azure DevOps & Postman
+Description: Matrix Absence Management is an online tool designed for requesting & managing
+professional leave. It assists employees in navigating their absence journey or filing claims.
+Responsibilities:
+- Understanding the application thoroughly with help of User Stories
+- Preparing and documenting the test scenarios and test cases
+- Involved in reviewing of Test Cases and executing them
+- Involved in Functionality testing, E2E testing and Regression testing
+- Bug Reporting, Tracking and Regression of defects
+- Attending Scrum meetings and sprint meetings
+- Preparing test summary report on daily basis for senior management
+
+Client: McAfee | Project: McAfee Mobile Security (Core Team) | Jul 2022 – Dec 2023
+Platform: Android (Chrome Book) & iOS | Technology/Tools: Mosaic – Data Bricks, JIRA, MySQL, Swagger/POSTMAN
+Description: McAfee Mobile Security is an antivirus application for smartphones and tablets on Android, iOS.
+Core team delivers MMS application with all features implemented: Anti-virus scan, Wi-fi scan, VPN, Safe
+browsing, Protect more device, Transaction Monitoring & PDC etc.
+Responsibilities:
+- Preparing and documenting the test scenarios and test cases
+- Involved in reviewing of Test Cases and executing them
+- Involved in Functionality testing, Integration testing and Regression testing
+- Involved in Compatibility testing on different platforms
+- Involved in mobile testing of Android, iPhone with different versions
+- Involved in analytics testing using Mosaic – Data Bricks tools
+- Involved in accessibility testing using talk back feature
+
+Client: McAfee | Project: McAfee ePolicy Orchestrator | May 2021 – Jul 2022
+Platform: Web Application | Technology/Tools: JIRA, MySQL, Swagger/POSTMAN
+Description: With McAfee ePO software, IT administrators can unify security management across
+endpoints, networks, data, and compliance solutions from McAfee and third-party solutions. Provides
+flexible, automated management capabilities to identify, manage, and respond to security issues and
+threats, with automated workflows between security and IT operations systems.
+Responsibilities:
+- Understanding the application thoroughly with help of User Stories and Wireframes
+- Identify End to End scenarios and write test cases
+- Performed End to End Testing, Regression testing
+- Involved in Compatibility testing on different Browsers
+- Reviewed Test cases for peer and provided feedback on test case coverage
+- Responsible for Preparing Weekly Status Reports
+- Taking ownership of Modules and ensuring the best is being delivered by the team owned
+
+───────────────────────────────────────────────────────────────────────────
+
+TECHCHEFS SOFTWARE PRIVATE LIMITED
+
+Client: Central Spaces, Australia | Project: Any Spaces | Feb 2018 – Dec 2018
+Platform: Webapp, Mobile Application (Android & iOS, both Native apps) | Technology/Tools: JIRA, MySQL, Swagger/POSTMAN
+Description: Project developed for Australian client Any Spaces. B2B application developed as a web
+application and mobile application for Android and iOS. Connects possible Bookers with Listers of a
+commercial space to Rent/Lease to a tenant. Three types of users: Listers (Space Owner), Bookers
+(tenant), and Node User (Super Admin who manages the application).
+Responsibilities:
+- Understanding the application thoroughly with help of User Stories and Wireframes
+- Identify End to End scenarios and write test cases
+- Performed Build Verification Tests and End to End Testing, Regression testing
+- Involved in Compatibility testing on different Browsers and different platforms
+- Reviewed Test cases for peer and provided feedback on test case coverage
+- Responsible for Preparing Weekly Status Reports
+- Taking ownership of Modules and ensuring the best is being delivered by the team owned
+
+───────────────────────────────────────────────────────────────────────────
+
+IFOCUS SYSTEC INDIA PRIVATE LIMITED
+
+Client: McAfee | Project: McAfee Mobile Security (Customization Team & Partner Standard Team) | Feb 2017 – Jan 2018
+Platform: Android (Smartphone & Tablet) and iOS (iPhone & iPad), Windows 8/10 | Technology/Tools: Bugzilla
+Description: Consumer Engineering account handles delivery of Security product to various Partners
+based on partner requirement. Partner Standard team delivers customized security to partner types like
+OEM (Original Equipment Manufacturer)/ISP (Internet Service Provider), supporting 300+ active partners.
+Customization spans all McAfee products across all 32 locales worldwide: McAfee LiveSafe, McAfee
+Total Protection, McAfee Internet Security.
+Responsibilities:
+- Understanding the client requirements and project functionalities
+- Design and execute test cases
+- Testing the security products across various OS and multiple locales
+- Testing the behavior/customizations of the product in Factory and User mode for OEM and Standard partners
+- Involved in Installation, End to end product testing, Platform Compatibility Testing, Negative Testing, Uninstallation
+- Bug Reporting, Tracking and Regression of defects
+
+Client: One Tech Ventures | Project: JARVIZ | Sep 2016 – Feb 2017
+Platform: Web Application | Technology/Tools: Test Rail & JIRA
+Description: Jarviz Search Engine is a recruitment platform where recruiters/corporations use the Jarviz
+search engine to search and shortlist candidates out of thousands and lakhs of candidate profiles. Jarviz
+crawls candidate data, uses algorithms and machine learning to search for appropriate candidates.
+Recruiters use shortlisted profiles to engage with candidates. An expert recruiter can rank companies
+based on city, region, and other criteria; the search engine uses the company ranking system while
+searching candidates through a calibrator.
+Responsibilities:
+- Understanding the Requirements and prepare Keywords for Modules
+- Converting Functional Requirement to Test Document
+- Writing Test Cases, Reviewing Test Cases and Preparing Test Summary report
+- Involved in UI, Functional, Integration, Regression and System testing
+- Involved in Backend testing
+- Used JIRA as bug-tracking tool to centralize the bugs and also to follow up the defect status
+- Involved in review meetings with project team
+- Submitting day to day reports and status
+- Involved in defect tracking until Closures
+
+Client: McAfee | Project: McAfee Mobile Security (Customization Team) | Sep 2015 – Sep 2016
+Platform: Android (Smartphone & Tablet) and iOS (iPhone & iPad) | Technology/Tools: Bugzilla & VMware vSphere Client
+Description: McAfee Mobile Security is an antivirus application for smartphones and tablets on Android,
+iOS, Blackberry and Symbian. Partner team delivers MMS application with customizations implemented:
+Anti-theft, Virus scan, App protection, Site advisor, call and SMS filter, Wi-fi security and Battery Optimizer.
+Responsibilities:
+- Understanding the Clients requirement
+- Conduct requirements review with product partner managers and conversion of it into Test cases
+- Testing and delivery of Android APK for Partners with Agile methodologies in the organization
+- Various levels of testing like client, web, home are carried out to ensure highest quality
+- Handled readiness testing of the product
+- Extracting logs and identifying the exact cause of the issue and reporting in Bugzilla tool
+- Taking ownership of projects and ensuring the best is being delivered by the team owned
+- Conduct training sessions for team members and for new joiners
+- Work experience on client server mobile application

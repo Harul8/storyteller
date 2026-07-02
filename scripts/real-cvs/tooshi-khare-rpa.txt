@@ -1,0 +1,102 @@
+TOOSHI KHARE | RPA Team Lead
+Mobile: +91-8085742473 | Tooshik@virtusa.com
+
+SUMMARY
+Intelligent Automation & Digital Transformation Expert | RPA Team Lead. Almost 9 years of specialized
+experience in managing enterprise operations, major incident management, digital transformation, and
+intelligent automation services within the Life Sciences and Manufacturing sectors. Proficient in Project
+management, team management, Automation Anywhere (A360), UI Path, Power Automate and Python.
+Proven expertise in ITSM processes including Incident, Problem, Change, Request, and Knowledge
+Management aligned with ITIL best practices. Experienced in leading global support teams, driving
+service governance, managing customer escalations, ensuring SLA/KPI compliance, and delivering
+continuous service improvement initiatives. Strong track record of stakeholder management, risk
+mitigation, platform governance, regulatory compliance, and operational excellence across mission
+critical business services. Recognised for leading high-performing teams, improving platform stability,
+and driving measurable efficiency gains.
+
+Core Competencies:
+- Automation & AI: Automation Anywhere (V11 & A360), UI Path, Power Automate, Autobot, Generative AI, Agentic AI, LLM Integration
+- Process Excellence: Platform Upgrades and Migrations, SaaS Migration, Process Improvement, and Automation Strategy
+- ITIL & Operations: Incident, Problem, Change, and Knowledge Management; Monitoring and Event Management; Service Governance and SLA Performance
+- Leadership: Stakeholder Engagement, Agile Team Management, Vendor Coordination, and Project Governance
+
+Responsibilities:
+- Led a 24/7 team of seven members dedicated to supporting bots and the Automation Anywhere RPA platform
+- Maintained the continuous availability and stability of the Automation Anywhere environment
+- Directed ITIL operations to guarantee full compliance with SLA requirements
+- Acted as the primary escalation point for RPA-related incidents, conducting blameless postmortems and managing escalations
+- Handled stakeholder relations and facilitated ongoing communication between external teams and business units
+- Executed platform enhancements, migrations, upgrades, and retirements
+- Managed core ITIL processes, including problem, change, and knowledge management
+- Spearheaded project closures by ensuring strict adherence to organizational governance and established company standards
+- Responsible for maintaining ServiceNow dashboards, bot repository documents, bot run status documents etc
+- Responsible for ensuring security compliance requiring password rotations, CAPA handling, API key renewal, OAuth connection renewal, etc.
+
+Educational Qualifications: Integrated B.E. + M.Tech, University Institute of Technology, RGPV, Bhopal
+
+Certifications: Automation Anywhere | Google Project Management | IBM Product Management |
+Foundations of SRE | Observability | AI Fluency | Prompt Engineering | Essentials of Gen AI
+
+───────────────────────────────────────────────────────────────────────────
+PROJECTS WORKED ON
+───────────────────────────────────────────────────────────────────────────
+
+Virtusa Consultancy | Project: Eli Lilly | Dec 2021 – Feb 2026
+Role: Senior Software Engineer / RPA Operations Team Lead – Automation Anywhere
+Technology: Automation
+Tools and Technologies: Automation Anywhere, UI Path, Power Apps (Power Automate, Power BI, Canvas),
+AWS (EC2, DR), JIRA, Asana, SNOW, Splunk, Cyberark, SharePoint
+
+Description:
+- Led end to end delivery of enterprise automations across various domains like finance, HR and supply
+  chain operations. Mentored a team of 7 analysts, fostering collaboration, cross-training, and adherence
+  to ITIL best practices.
+- Served as first escalation point for the team supporting 120+ bots across Finance, HR, and Supply
+  Chain operations in the Life Sciences domain.
+- Led end-to-end Incident and Problem Management by driving rapid root-cause analysis, ensuring clear
+  stakeholder communication, meeting strict SLAs, and collaborating with DevOps/infrastructure teams to
+  implement permanent fixes for recurring production issues.
+- Collaborated with business and technical stakeholders to gather service requirements, improve ITSM
+  processes, and implement operational changes that improved service quality, compliance, and SLA
+  performance.
+- Enhanced incident recovery processes, contributing to a 25% reduction in annual incidents and
+  measurable SLA improvements.
+- Governed weekly and monthly client communications, preparing incident reports, RCA documents, and
+  performance dashboards for leadership and auditors.
+- Led Planning and execution of Automation Anywhere platform upgrades (v11 → A360 v24 → v30),
+  ensuring zero regulatory impact and strict change-control adherence.
+- Led migration from Automation Anywhere on-prem environment to cloud (SaaS migration) considering
+  the risk category of the bots from low (RC1) to high (RC5) and different levels of control required for
+  each category.
+- Managed planning, scheduling and execution of migration of 80+ bot runner virtual machines (VDs)
+  from Windows 10 32-bit to Windows 11 64-bit ensuring all dependencies were fulfilled and tested before
+  enabling the executions in Windows 11 machines.
+- Accounted for multiple platform maintenance activities like Service accounts password rotation, CAPAs
+  for Change Control, periodic validations related to licenses, accounts etc.
+- Drove multiple platform maintenance activities like Service accounts password rotation, CAPAs for
+  Change Control, periodic validations related to licenses, accounts etc.
+- Facilitated quarterly Disaster Recovery (DR) drills on AWS control rooms, aligning with IT regulatory
+  requirements for business continuity. Scheduled load balancer certificate renewal in servers as part of
+  platform maintenance to ensure operational continuity and application availability.
+- Contributed to Planning and execution of quarterly Disaster Recovery Plan for 5 Control Room AWS
+  servers, ensuring failovers happen in least possible time without impacting downtime.
+
+Tata Consultancy Services | Dec 2017 – Dec 2021
+Role: RPA Analyst | UIPath and Autobot
+Technology: Automation
+
+Description:
+- Developed and supported 25+ automated processes developed through UI Path and Autobot, ensuring
+  reliable daily runs, monitoring for financial reporting accuracy, and preventing reporting delays.
+- Delivered 15+ process enhancements, reducing recurring incidents and increasing reporting reliability
+  for stakeholders in regulated environments.
+- Worked as primary incident manager for automation failures, performing triage, RCA, and resolution
+  within tight deadlines.
+- Maintained incident and change management records using ITIL frameworks, ensuring full traceability
+  for audits and compliance checks.
+- Partnered with finance teams to validate output from bots, ensuring data accuracy in reconciliations,
+  reporting, and compliance reviews.
+- Coordinated incident response with cross-functional teams, escalating high-severity issues to
+  leadership with timely communication.
+- Conducted post-incident reviews to identify patterns and provide knowledge management
+  documentation, reducing repeat errors and improving future resolution times.
