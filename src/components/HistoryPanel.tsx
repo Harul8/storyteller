@@ -571,7 +571,7 @@ function SessionViewer({
             Coaching transcript — {exchangeCount(entry.messages)} exchange{exchangeCount(entry.messages) !== 1 ? "s" : ""}
           </p>
         </div>
-        <div className="max-h-[60vh] space-y-4 overflow-y-auto p-5">
+        <div className="space-y-4 p-5">
           {entry.messages
             .filter((m) => m.content.trim() && m.content !== COACH_OPEN_TRIGGER)
             .map((m, i) => (
