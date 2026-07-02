@@ -19,6 +19,7 @@ type View = "input" | "coaching" | "chat" | "history";
 
 export default function Home() {
   const [view, setView] = useState<View>("input");
+  const [showIntake, setShowIntake] = useState(false);
   const [analysis, setAnalysis] = useState<Analysis | null>(null);
   const [cvText, setCvText] = useState("");
   const [targetRole, setTargetRole] = useState("");
@@ -226,6 +227,7 @@ export default function Home() {
     setError(null);
     sessionIdRef.current = "";
     setView("input");
+    setShowIntake(false);
   }
 
   return (
@@ -240,7 +242,11 @@ export default function Home() {
           <nav className="flex items-center gap-1">
             <NavBtn
               active={view !== "history"}
-              onClick={() => (view === "coaching" || view === "chat" ? null : setView("input"))}
+              onClick={() => {
+                if (view === "coaching" || view === "chat") return;
+                setView("input");
+                setShowIntake(false);
+              }}
             >
               {view === "coaching" || view === "chat" ? (
                 <span onClick={reset} className="cursor-pointer">New session</span>
@@ -264,7 +270,29 @@ export default function Home() {
         </main>
       )}
 
-      {view === "input" && (
+      {view === "input" && !showIntake && (
+        <main className="flex flex-1 flex-col items-center justify-center px-5 py-12 bg-slate-50">
+          <div className="max-w-2xl text-center">
+            <h2 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
+              Your personal interview coach for IT professionals
+            </h2>
+            <p className="mt-3 text-slate-500">
+              Upload your CV, tell us the role you are targeting, and your coach will immediately
+              assess your profile and run you through a live practice session on every question
+              an interviewer will ask.
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={() => setShowIntake(true)}
+            className="mt-8 rounded-xl bg-indigo-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-indigo-500"
+          >
+            Connect with Coach
+          </button>
+        </main>
+      )}
+
+      {view === "input" && showIntake && (
         <main className="flex flex-1 flex-col items-center justify-center px-5 py-12 bg-slate-50">
           <div className="mb-8 max-w-2xl text-center">
             <h2 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
